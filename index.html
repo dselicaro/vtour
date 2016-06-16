@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VTour: Champlain College</title>
+    <link rel="stylesheet" type="text/css" href="vtour.css">
+    <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+    <script src="academics.js" type="text/javascript"></script>
+    <script src="polys.js" type="text/javascript"></script>
+    <script src="vtour.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+    <div class="legend-box">
+        <img class="logo" src="http://www.champlain.edu/Images/Admin/icons/wordmark-250.png"/>
+        <form>
+
+            <h3>Campus Buildings and Facilities</h3>
+            <ul class="checkboxes">
+                <li>
+                    <img src="http://www.champlain.edu/Images/Admin/icons/academic_icon.png" alt="Academic Building Icon" >
+                    <label for="AcademicBuilding"> Academic Buildings </label>
+                    <input class="AcademicBuilding" type="checkbox" id="AcademicBuilding" value="AcademicBuilding" checked="checked">
+                </li>
+
+                <li>
+                    <img src="http://www.champlain.edu/Images/Admin/icons/residence_icon.png" alt="Residential Building Icon" >
+                    <label for="ResidentialBuilding">Victorian Era Residence Halls</label>
+                    <input class="ResidentialBuilding" type="checkbox" id="ResidentialBuilding" value="ResidentialBuilding" checked="checked">
+                </li>
+
+                <li>
+                    <img src="http://www.champlain.edu/Images/Admin/icons/residence_icon.png" alt="Residential Building Icon" >
+                    <label for="ContemporaryBuilding">Contemporary Residence Halls</label>
+                    <input class="ContemporaryBuilding" type="checkbox" id="ContemporaryBuilding" value="ContemporaryBuilding" checked="checked">
+                </li>
+
+                <li>
+                    <img src="http://www.champlain.edu/Images/Admin/icons/shield_icon.png" alt="Points of Interest Icon" >
+                    <label for="PointOfInterest">Points of Interest</label>
+                    <input class="PointOfInterest" type="checkbox" id="PointOfInterest" value="PointOfInterest" checked="checked">
+                </li>
+                <li>
+                    <label for="PolyLayer">Building Polygons</label>
+                    <input class="PolyLayer" type="checkbox" id="PolyLayer" value="PolyLayer" onclick="toggleBuildingPolys('PolyLayer')" checked="checked">
+                </li>
+                <li>
+                    <label for="CampusLayer">Campus Polygons</label>
+                    <input class="CampusLayer" type="checkbox" id="CampusLayer" value="CampusLayer" onclick="toggleCampusPolys('CampusLayer')">
+                </li>
+
+            </ul>
+
+            <h3>Self Guided Walking Tours</h3>
+            <p>Coming soon...</p>
+        </form>
+
+
+    </div>
+    <div id="map"></div>
+</div>
+</body>
+</html>
