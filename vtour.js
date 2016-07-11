@@ -57,14 +57,14 @@ function init() {
 // -------------------MAP OVERLAY-------------------------------------------------------
     //Custom overlay image of Champlain College campus
     var imageBounds = {
-        north: 44.476150,
-        south: 44.473150,
-        east: -73.201650,
+        north: 44.476200,
+        south: 44.473100,
+        east: -73.201640,
         west: -73.20645
     };
 
     var testOverlayOpts = {
-        opacity:1
+        opacity:0.6
     };
 
 
