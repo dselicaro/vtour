@@ -69,7 +69,7 @@ function init() {
 
 
     testOverlay = new google.maps.GroundOverlay(
-        'http://www.champlain.edu/Images/admin/vtour/maptest1.png',
+        'http://www.champlain.edu/Images/admin/vtour/maptest3.svg',
         imageBounds,
         testOverlayOpts
     );
