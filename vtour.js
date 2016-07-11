@@ -64,7 +64,7 @@ function init() {
     };
 
     var testOverlayOpts = {
-        opacity:0.6
+        opacity:1
     };
 
 
