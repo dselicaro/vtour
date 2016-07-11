@@ -37,7 +37,14 @@ function toggleCampusPolys(id){
 //Initialize the map, set map on each layer
 function init() {
 
-    //Define general map options
+
+    var infowindow = new google.maps.InfoWindow();
+    var bounds = new google.maps.LatLngBounds();
+    var marker, i;
+    var testOverlay;
+
+
+    //Define general map options, including center, zoom level and styles.
     var mapOptions = {
         center: ChamplainCampus,
         zoom: 17,
@@ -45,9 +52,32 @@ function init() {
 
     };
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    var infowindow = new google.maps.InfoWindow();
-    var bounds = new google.maps.LatLngBounds();
-    var marker, i;
+
+
+// -------------------MAP OVERLAY-------------------------------------------------------
+    //Custom overlay image of Champlain College campus
+    var imageBounds = {
+        north: 44.476150,
+        south: 44.473150,
+        east: -73.201650,
+        west: -73.20645
+    };
+
+    var testOverlayOpts = {
+        opacity:1
+    };
+
+
+    testOverlay = new google.maps.GroundOverlay(
+        'http://www.champlain.edu/Images/admin/vtour/maptest1.png',
+        imageBounds,
+        testOverlayOpts
+    );
+
+
+
+
+    addOverlay();
 
 
 
@@ -166,8 +196,6 @@ function init() {
     }
 
 
-    //Switch case here:
-
     function showAcad(category) {
         for (var i=0; i<academics.length; i++) {
             var building = academics[i];
@@ -242,6 +270,14 @@ function init() {
         }
     }
 
+    function addOverlay() {
+        testOverlay.setMap(map);
+    }
+
+    function removeOverlay() {
+        testOverlay.setMap(null);
+    }
+
 
     generateAcademicLayer();
     generateResidentialLayer();
@@ -304,6 +340,19 @@ function init() {
             else
             {
                 hidePoi(value);
+            }
+        });
+
+        $('.MapOverlay').on('change', function(){
+            var value = $(this).attr("value");
+            // If checked
+            if ($(this).is(":checked"))
+            {
+                addOverlay();
+            }
+            else
+            {
+                removeOverlay();
             }
         });
 
