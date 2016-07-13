@@ -315,16 +315,14 @@ var residential =
         "copy": "Whiting Hall is located in the heart of the residential campus on the corner of South Willard Street and Maple Street. Whiting is a Victorian-era mansion with beautiful original woodwork and three floors of student rooms. Whiting shares lawn space with McDonald Hall, and has a large front porch. On warm days, you will find residents studying under trees or playing Frisbee with their McDonald Hall neighbors! Whiting is home to approximately 40 primarily first year students.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/reshall-whiting.jpg",
         "type": "ResidentialBuilding"
-    }
-];
-    var contemporary = [
+    },
     {
         "name": "308 Maple St",
         "lat": 44.47413,
         "lng": -73.20684,
         "copy": "One of our smaller, more intimate residential settings, 308 Maple is home to our campus’ substance free program. Housing only 14 returning students, all residents of this building sign an agreement to live a lifestyle free from the effects of alcohol or drugs, including those over the legal drinking age. Alternative programming and events hosted by Residential Life staff play a large role in the success of this program.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-308-maple.jpg",
-        "type": "ContemporaryBuilding"
+        "type": "ResidentialBuilding"
     },
     {
         "name": "Boardman Hall",
@@ -332,7 +330,7 @@ var residential =
         "lng": -73.20383,
         "copy": "One of our campus’ most popular living options, Boardman Hall is a favorite of students who desire the privacy of single rooms with the convenience of living on the main campus. Each of the suites has its own common space for students to convene and study or socialize, and includes its own washer/dryer unit. Students in Boardman Hall participate in the meal plan, however, the building also includes a small kitchenette area perfect for making a late night snack.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-main-st-suites.jpg",
-        "type": "ContemporaryBuilding"
+        "type": "ResidentialBuilding"
     },
     {
         "name": "Butler, Juniper, and Valcour Hall",
@@ -340,7 +338,7 @@ var residential =
         "lng": -73.20681,
         "copy": "Butler, Juniper and Valcour Halls are Champlain’s newest facilities, opened in 2012 and 2014. These buildings are part of our sophomore year experience, and feature all single and double rooms, a large common area on the first floor, small study/lounge areas throughout. Juniper Hall also has a ski/snowboard tuning room that is available to residents of all Champlain College residence halls. These three residence halls are named after islands on Lake Champlain, which is very appropriate as the buildings feature multiple two-story windows looking out onto Burlington’s greatest natural attraction. The buildings was also designed with the environment in mind, as its construction meets the highest standard of sustainability.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-juniper-hall.jpg",
-        "type": "ContemporaryBuilding"
+        "type": "ResidentialBuilding"
     },
     {
         "name": "Lakeview Hall",
@@ -348,9 +346,10 @@ var residential =
         "lng": -73.20631,
         "copy": "80 sophomore students feel lucky to live in this residence hall located close to the center of campus. Residents love Lakeview’s game room with its pool table and television. There is also a formal living room located on the first floor. There are 39 rooms at Lakeview; many facing west with beautiful views of Lake Champlain. Many student rooms have wood floors and radiant heat, and all rooms are air conditioned. The distinctive wall colors in student bedrooms are very popular.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-lakeview-hall.jpg",
-        "type": "ContemporaryBuilding"
+        "type": "ResidentialBuilding"
     }
-],
+];
+    var contemporary = [],
 
     poi = [
         {

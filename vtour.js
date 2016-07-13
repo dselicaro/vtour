@@ -16,7 +16,7 @@ var academicMarkers = [],
 var perryOutline, campusOutline;
 
 //Set center of map,
-var ChamplainCampus = {lat: 44.474406, lng: -73.204027};
+var ChamplainCampus = {lat: 44.473769, lng: -73.204452};
 
 function toggleBuildingPolys(id){
     if($('#' + id).is(':checked')){
@@ -58,13 +58,13 @@ function init() {
     //Custom overlay image of Champlain College campus
     var imageBounds = {
         north: 44.476200,
-        south: 44.473100,
+        south: 44.473060,
         east: -73.201640,
         west: -73.20645
     };
 
     var testOverlayOpts = {
-        opacity:1
+        opacity:0.6
     };
 
 
@@ -149,28 +149,7 @@ function init() {
 
         }
     }
-    function generateContemporaryLayer(){
-        for (i =0; i<contemporary.length; i++){
-            var building = contemporary[i];
-            marker = new google.maps.Marker({
-                position: new google.maps.LatLng(building.lat, building.lng),
-                map:map,
-                icon: 'http://www.champlain.edu/Images/Admin/icons/residence_icon.png'
-            });
 
-            contemporaryMarkers.push(marker);
-
-            google.maps.event.addListener(marker, 'click', (function(marker, i) {
-
-                return function() {
-                    infowindow.setContent('<h1>' +  contemporary[i].name + "</h1>" + '<p><img src="' + contemporary[i].image + '"/></p>' + '<p>' + contemporary[i].copy + '</p>');
-                    infowindow.open(map, marker);
-                }
-
-            })(marker, i));
-
-        }
-    }
 
     function generatePoiLayer(){
         for (i =0; i<poi.length; i++){
@@ -234,23 +213,6 @@ function init() {
         }
     }
 
-    function showContemporary(category) {
-        for (var i=0; i<contemporary.length; i++) {
-            var building = contemporary[i];
-            if (building.type  == category) {
-                contemporaryMarkers[i].setVisible(true);
-            }
-        }
-    }
-
-    function hideContemporary(category) {
-        for (var i=0; i<contemporary.length; i++) {
-            var building = contemporary[i];
-            if (building.type  == category) {
-                contemporaryMarkers[i].setVisible(false);
-            }
-        }
-    }
 
     function showPoi(category) {
         for (var i=0; i<poi.length; i++) {
@@ -281,12 +243,10 @@ function init() {
 
     generateAcademicLayer();
     generateResidentialLayer();
-    generateContemporaryLayer();
     generatePoiLayer();
 
     showAcad("AcademicBuilding");
     showRes("ResidentialBuilding");
-    showContemporary("ContemporaryBuilding");
     showPoi("PointOfInterest");
 
 
@@ -318,18 +278,6 @@ function init() {
             }
         });
 
-        $('.ContemporaryBuilding').on('change', function(){
-            var value = $(this).attr("value");
-            // If checked
-            if ($(this).is(":checked"))
-            {
-                showContemporary(value);
-            }
-            else
-            {
-                hideContemporary(value);
-            }
-        });
         $('.PointOfInterest').on('change', function(){
             var value = $(this).attr("value");
             // If checked
