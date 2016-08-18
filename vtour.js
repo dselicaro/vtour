@@ -11,7 +11,6 @@ var map;
 var infowindow;
 var academicMarkers = [],
     residentialMarkers = [],
-    contemporaryMarkers = [],
     poiMarkers = [];
 var perryOutline, campusOutline;
 
@@ -26,13 +25,6 @@ function toggleBuildingPolys(id){
     }
 }
 
-function toggleCampusPolys(id){
-    if($('#' + id).is(':checked')){
-        campusOutline.setMap(map);
-    } else {
-        campusOutline.setMap(null);
-    }
-}
 
 //Initialize the map, set map on each layer
 function init() {
@@ -108,16 +100,27 @@ function init() {
         for (i =0; i<academics.length; i++){
             var building = academics[i];
             marker = new google.maps.Marker({
-                position: new google.maps.LatLng(building.lat, building.lng),
+
                 map:map,
                 icon: 'http://www.champlain.edu/Images/Admin/icons/academic_icon.png'
             });
 
+            var label = new MapLabel({
+                text: "text",
+                position: new google.maps.LatLng(building.lat, building.lng),
+            });
+
+            marker.bindTo('map', label);
+
+
             academicMarkers.push(marker);
+            $('ul.academicsUL').append('<li class="academicsListItem">' + academics[i].name + '</li>');
+
 
 
             google.maps.event.addListener(marker, 'click', (function(marker, i) {
 
+                map.panTo(marker.position);
                 return function() {
                     infowindow.setContent('<h1>' +  academics[i].name + "</h1>" + '<p><img src="' + academics[i].image + '"/></p>' + '<p>' + academics[i].copy + '</p>');
                     infowindow.open(map, marker);
@@ -258,6 +261,7 @@ function init() {
             if ($(this).is(":checked"))
             {
                 showAcad(value);
+
             }
             else
             {

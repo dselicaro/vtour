@@ -23,8 +23,9 @@ html, body
 
 }
 .legend-box ul li {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
 }
 
 img.logo {
