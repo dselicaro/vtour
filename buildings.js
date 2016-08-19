@@ -238,7 +238,7 @@ var allBuildings = [
         "name": "Miller Information Commons",
         "slug": "mic",
         "category": "Academic",
-        "lat": 44.47331,
+        "lat": 44.47341,
         "lng": -73.20273,
         "description": "",
         "image": ""
@@ -262,15 +262,58 @@ var allBuildings = [
         "description": "Pearl Hall is literally surrounded by Champlain buildings and offers the most convenience in a residence hall for Champlain students. Pearl Hall is the closest residence hall to the fitness center, dining hall, gym, and the entire IDX Student Life Center. The primarily first year residents of Pearl describe its beautiful tile bathrooms and its large porch as creating a comfortable living space on campus. Pearl Hall is also very close to most academic buildings on campus, making it a short walk from bedroom-to-classroom!Pearl Hall houses approximately 49, creating a great environment for meeting new people and making new friends. Pearl’s room layout is quite unique, from turret rooms to L-shapes, to corner singles, Pearl has something for everybody. Its brand new front porch is a great place to hang out with friends or to get some studying done on a warm fall day.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-pearl-hall.jpg"
     },
+
+    {
+        "name": "Physical Plant",
+        "slug": "physical-plant",
+        "category": "Academic",
+        "lat": 44.45847,
+        "lng": -73.21674,
+        "description": "",
+        "image": ""
+    },
+
+    {
+        "name": "President's House",
+        "slug": "presidents-house",
+        "category": "Academic",
+        "lat": 44.47282,
+        "lng": -73.20258,
+        "description": "Current Use: Residence of the president of the College. Year of Construction: 1920's. Year Purchased by Champlain College: 1997. History: This house was built as a duplex, split horizontally rather than vertically. It was rented to a series of tenants until 1944, when it was purchased by the Way family. Marion Way occupied the house until her death in 1997, when it was deeded to the College.",
+        "image": ""
+    },
+
+    {
+        "name": "Rowell Annex",
+        "slug": "rowell-annex",
+        "category": "Academic",
+        "lat": 44.472249,
+        "lng": -73.206398,
+        "description": "Current Use: Rowell Annex is located on South Willard Street and contains Champlain's Physical Plant. Location: 275 South Willard Street. Year of Construction: 1918. Original Owner: Roy Leonard Patrick. Year Purchased by Champlain College: 1972. History: The building known as the Annex was the garage for the Patrick house, now called Rowell Hall. Since Rowell Hall was built in 1918, it does not have the classic Victorian look of most of the other houses in the area. It is, however, a beautifully designed building. The original owner, Roy Leonard Patrick, was the treasurer of the G. S. Blodgett Company, secretary of the Standard Coal and Fuel Company, treasurer of the Eastern Magnesia Talc Company, treasurer of the Woodbury Granite Company, and president of the Rock of Ages Corporation in Barre. The house remained in the Patrick family until 1953, when it was sold to the University of Vermont. It was purchased by Champlain College in 1972.",
+        "image": ""
+    },
+
     {
         "name": "Rowell Hall",
         "slug": "rowell-hall",
         "category": "Residential",
-        "lat": 44.47241,
-        "lng": -73.20569,
+        "lat": 44.472454,
+        "lng": -73.205685,
         "description": "Rowell Hall underwent a wonderful renovation is the summer of 2006. A Greek Revival mansion, Rowell Hall stands out as one of Champlain’s most beautiful and most sought-after residence halls. Residents of Rowell describe the rooms as beautiful and stunning. Rowell Hall houses approximately 49 first year students. Rowell Hall is an air conditioned building with large bathrooms, a refrigerator, television, and microwave. With its center-of-campus location, modest resident capacity, and attractive rooms, this hall is often the first choice for many Champlain students.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-rowell-hall.jpg"
     },
+
+    {
+        "name": "S.D. Ireland",
+        "slug": "ireland",
+        "category": "Academic",
+        "lat": 44.47373,
+        "lng": -73.20345,
+        "description": "Current Use: The S.D. Ireland Family Center for Global Business and Technology is the newest addition to Champlain's campus. This $10 million building will enhance the College’s ability to put students to work on real business challenges for Vermont companies and non-profits. Students will interact with these clients and Champlain faculty members in new high-tech classrooms and multimedia suites, a market research and strategy room, focus group room, international business resource center and conference rooms.",
+        "image": ""
+    },
+
+
     {
         "name": "Sanders Hall",
         "slug": "sanders-hall",
@@ -316,6 +359,17 @@ var allBuildings = [
         {lng: -73.2027995, lat: 44.4730199}
         ]
     },
+
+    {
+        "name": "Skiff Hall",
+        "slug": "skiff-hall",
+        "category": "Academic",
+        "lat": 44.47551,
+        "lng": -73.20571,
+        "description": "Current Use: Robert A. Skiff Hall is currently the home for several offices on Champlain's campus. The office of Residential Life recently came to occupy this building, creating a warm and welcoming atmosphere for those members and the students who use their services. Skiff Hall also holds other services such as the L.E.A.D. Program, the program designed to help teach Champlain students necessary life skill, as well as the Counseling Department and the Graduate Admission office. Location: 163 South Willard Street Year of Construction: approx. 1829 Owner: Joseph Potwin Year Purchased by Champlain College: 1980 History: Skiff Hall is Champlain College's oldest building. Maps drawn in the 1830's to 1860's show it to be one of the few houses that existed in the Hill Section. To the east and south was solid pine woods. It was sold as \"new\" to Don Carlos Baxter, a prominent attorney. It was he who built the little Greek temple on his west lawn to use as a law office. Most estimates are that Baxter built Skiff Hall in several stages with the south addition in 1845, and the cupola and ballroom in 1855. In 1867 the house was sold to Charles Gustavus Austin, who, along with his unmarried daughters, used the house primarily as a summer home until the mid-1920's. Joseph Winterbotham purchased the house in 1927, and when he died in 1956 it was acquired by the Burlington School Department which converted it to offices. Champlain College purchased it in 1980 and moved its administrative offices from Bader Hall to Skiff.",
+        "image": ""
+    },
+
     {
         "name": "South House",
         "slug": "south-hall",
@@ -335,6 +389,27 @@ var allBuildings = [
         "description": "Summit Hall is located in the heart of the Burlington hill section, close to the Miller Information Commons and the main campus. Summit Hall has replaced 215 South Prospect as our traditional building open during break periods, making it ideal for international students. Summit Hall boasts a large lounge which can be used for practicing and playing musical instruments, watching movies, or engaging in one of many frequent social or educational residence hall programs. Summit Hall has a large front lawn, which, during the warmer months, is great for impromptu games of Frisbee and for hall BBQ’s. This stately brick building is appreciated for its many unique rooms. Summit Hall houses approximately forty-nine residents who are a mix of returning and first year students.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-summit.jpg"
     },
+
+    {
+        "name": "The Gallery",
+        "slug": "the-gallery",
+        "category": "Academic",
+        "lat": 44.47595,
+        "lng": -73.20626,
+        "description": "Current Use: The Gallery is the Campus base for the Radiography program. Most of the radiography classes and meetings that are not held at the hospital are conducted in this building, located just west of Skiff Hall. Location: Main Street (its address is linked with Skiff Hall) Year Constructed: c. 1838 Original Owner: Jonathan Potwin Year Acquired by Champlain College: 1980 History: This small Greek porticoed building was constructed in 1838 by the owners of what is now Skiff Hall. It was used as a law office by Don Carlos Baxter, a prominent Burlington attorney who purchased the house in 1830. It has since been used by various owners as an art studio, tea house, office, and play house. It was included in the sale of the Skiff Hall property to the Burlington School Department in 1957, when it was used as an office. When Champlain College bought the estate in 1980 the Gallery was converted to classroom use.",
+        "image": ""
+    },
+
+    {
+        "name": "West Hall",
+        "slug": "west-hall",
+        "category": "Academic",
+        "lat": 44.47346,
+        "lng": -73.20626,
+        "description": "Current Use: Offices Location: 317 Maple Street Year of Construction: 1884 Original Owner: Elias Lyman Year Purchased by Champlain College: 1998 History: West house was built, originally, as a garage and residence for the chauffeur of the Lyman family [link to Lyman Hall], probably in the early 1900's. In the 1920's it was converted to a duplex; in the 1970's it was sold to Lubavitch of Vermont. It was purchased by Champlain College in 1998.",
+        "image": ""
+    },
+
     {
         "name": "Whiting Hall",
         "slug": "whiting-hall",
@@ -343,5 +418,15 @@ var allBuildings = [
         "lng": -73.2058,
         "description": "Whiting Hall is located in the heart of the residential campus on the corner of South Willard Street and Maple Street. Whiting is a Victorian-era mansion with beautiful original woodwork and three floors of student rooms. Whiting shares lawn space with McDonald Hall, and has a large front porch. On warm days, you will find residents studying under trees or playing Frisbee with their McDonald Hall neighbors! Whiting is home to approximately 40 primarily first year students.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/reshall-whiting.jpg"
-    }
+    },
+
+    {
+        "name": "Wick Hall",
+        "slug": "wick-hall",
+        "category": "Academic",
+        "lat": 44.473397,
+        "lng": -73.203603,
+        "description": "Current Use: Wick contains three classrooms on the first floor, and faculty offices on the second. Location: Behind Aiken Hall Year of Construction: 1885 Original Owner: Frederick Kennedy Year Purchased by Champlain College: 1981 History: This building served as the stable and carriage house behind the main house of the Kennedy estate on Summit Street. It was designed by A. B. Fisher in the same Queen Anne style as the house. By the 1920's cars had replaced the horses, and Wick was converted to a garage, with servants' quarters upstairs. When Champlain College purchased the Westervelt estate in 1981, this building was remodeled into classrooms and faculty offices.",
+        "image": ""
+    },
 ];
