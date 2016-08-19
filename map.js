@@ -164,7 +164,7 @@ var mapStyles = [
         featureType: "road",
         elementType: "labels.text.fill",
         stylers: [
-          {visibility: "off"}
+          {visibility: "on"}
 
         ]
     }
