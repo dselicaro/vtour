@@ -125,7 +125,7 @@ function getMarkerIcon(mtype,path) {
 
 var map;
 var buildingIcon;
-var campusCenter = new google.maps.LatLng(44.474907,-73.203771);
+var campusCenter = new google.maps.LatLng(44.474478,-73.20397);
 var champlainCollegeLabel;
 
 
