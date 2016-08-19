@@ -8,8 +8,8 @@ var allBuildings = [
         "name": "308 Maple",
         "slug": "308-maple",
         "category": "Residential",
-        "lat": 44.47404,
-        "lng": -73.206856,
+        "lat": 44.47419,
+        "lng": -73.206881,
         "description": "One of our smaller, more intimate residential settings, 308 Maple is home to our campus’ substance free program. Housing only 14 returning students, all residents of this building sign an agreement to live a lifestyle free from the effects of alcohol or drugs, including those over the legal drinking age. Alternative programming and events hosted by Residential Life staff play a large role in the success of this program.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-308-maple.jpg"
     },
@@ -55,6 +55,17 @@ var allBuildings = [
     },
 
     {
+        "name": "Alumni Auditorium",
+        "slug": "alumni-auditorium",
+        "category": "Academic",
+        "lat": 44.473336,
+        "lng": -73.204341,
+        "description": "",
+        "image": ""
+    },
+
+
+    {
         "name": "Bader Hall",
         "slug": "bader-hall",
         "category": "Residential",
@@ -73,6 +84,16 @@ var allBuildings = [
         "description": "This is another of the Champlain College buildings that was designed by the architect A. B. Fisher. It was built in 1889 for the prominent Burlington lawyer Henry Ballard, who lived there until 1902. Frank Wells, of the Wells family that built 158 So. Willard Street and 61 Summit Street, lived there until 1916, when the house was purchased by Frank Abernethy, a local department store entrepreneur. In the 1930's the house was sold to Trinity College, which named it Mercy Hall. It was sold in 1960 to the UVM fraternity Phi Mu Delta, from whom Champlain College purchased it in 1992. The house has undergone extensive renovation since its purchase. Bankus Hall was named for John Bankus, Vice-president of Finance at Champlain College from 1965 to 1977.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-bankus-hall.jpg",
         "type": "ResidentialBuilding"
+    },
+
+    {
+        "name": "Butler Hall",
+        "slug": "butler-hall",
+        "category": "Resdiential",
+        "lat": 44.474362,
+        "lng": -73.206783,
+        "description": "",
+        "image": ""
     },
 
     {
@@ -96,11 +117,21 @@ var allBuildings = [
     },
 
     {
+        "name": "CCM Center",
+        "slug": "ccm-center",
+        "category": "Academic",
+        "lat": 44.473769,
+        "lng": -73.204340,
+        "description": "",
+        "image": ""
+    },
+
+    {
         "name": "Coolidge House",
         "slug": "coolidge-house",
         "category": "Academic",
-        "lat": 44.47415,
-        "lng": -73.20664,
+        "lat": 44.47407,
+        "lng": -73.206703,
         "description": "Carriage House is among the smaller residence hall communities at Champlain College: 15 students reside here in three double rooms, two triple rooms and one single room. Due to its smaller size, residents at Carriage House tend to establish a strong community. Located at the end of Cedar Lane and adjacent to Schillhammer Hall, Carriage and Schillhammer share staff and resources.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-carrage.jpg"
     },
@@ -206,6 +237,17 @@ var allBuildings = [
     },
 
     {
+        "name": "Lakeview Hall",
+        "slug": "lakeview-hall",
+        "category": "Resdiential",
+        "lat": 44.474664,
+        "lng": -73.206887,
+        "description": "",
+        "image": ""
+    },
+
+
+    {
         "name": "Lyman Hall",
         "slug": "lyman-hall",
         "category": "Residential",
@@ -222,6 +264,16 @@ var allBuildings = [
         "lng": -73.20576,
         "description": "McDonald Hall is located on northwest corner of Maple and South Willard streets. McDonald features turrets, arches, a formal main stairway, and beautiful woodwork. This unique residence hall is constructed of red brick with a slate roof. McDonald Hall is a beautiful and popular residence hall and home to approximately 48 residents. You will often find residents hanging out on the front porch, engaged in frequent social and educational activities, and enjoying the front lawn on warm days. McDonald Hall houses primarily first year students.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-mcdonald-hall.jpg"
+    },
+
+    {
+        "name": "Metz Studio Barn",
+        "slug": "metz-barn",
+        "category": "Academic",
+        "lat": 44.472905,
+        "lng": -73.20698,
+        "description": "",
+        "image": ""
     },
 
     {
@@ -262,6 +314,17 @@ var allBuildings = [
         "description": "Pearl Hall is literally surrounded by Champlain buildings and offers the most convenience in a residence hall for Champlain students. Pearl Hall is the closest residence hall to the fitness center, dining hall, gym, and the entire IDX Student Life Center. The primarily first year residents of Pearl describe its beautiful tile bathrooms and its large porch as creating a comfortable living space on campus. Pearl Hall is also very close to most academic buildings on campus, making it a short walk from bedroom-to-classroom!Pearl Hall houses approximately 49, creating a great environment for meeting new people and making new friends. Pearl’s room layout is quite unique, from turret rooms to L-shapes, to corner singles, Pearl has something for everybody. Its brand new front porch is a great place to hang out with friends or to get some studying done on a warm fall day.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-pearl-hall.jpg"
     },
+
+    {
+        "name": "Perry Hall",
+        "slug": "perry-hall",
+        "category": "Academic",
+        "lat": 44.4732,
+        "lng": -73.205999,
+        "description": "",
+        "image": ""
+    },
+
 
     {
         "name": "Physical Plant",
@@ -397,6 +460,16 @@ var allBuildings = [
         "lat": 44.47595,
         "lng": -73.20626,
         "description": "Current Use: The Gallery is the Campus base for the Radiography program. Most of the radiography classes and meetings that are not held at the hospital are conducted in this building, located just west of Skiff Hall. Location: Main Street (its address is linked with Skiff Hall) Year Constructed: c. 1838 Original Owner: Jonathan Potwin Year Acquired by Champlain College: 1980 History: This small Greek porticoed building was constructed in 1838 by the owners of what is now Skiff Hall. It was used as a law office by Don Carlos Baxter, a prominent Burlington attorney who purchased the house in 1830. It has since been used by various owners as an art studio, tea house, office, and play house. It was included in the sale of the Skiff Hall property to the Burlington School Department in 1957, when it was used as an office. When Champlain College bought the estate in 1980 the Gallery was converted to classroom use.",
+        "image": ""
+    },
+
+    {
+        "name": "Valcour Hall",
+        "slug": "valcour-hall",
+        "category": "Resdiential",
+        "lat": 44.474197,
+        "lng": -73.206321,
+        "description": "",
         "image": ""
     },
 
