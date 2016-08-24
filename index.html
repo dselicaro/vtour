@@ -13,6 +13,7 @@
     <script src="map.js"></script>
     <script src="buildings.js"></script>
     <script src="maplabel.js"></script>
+    <script src="map-ui.js"></script>
 </head>
 
 
@@ -97,32 +98,44 @@
 
     <div class="legend">
         <div id="nav">
-        <h3>Residential Buildings</h3>
-            <ul class="resList">
-                <li><a>308 Maple</a></li>
-                <li><a>371 Main St.</a></li>
-                <li><a>396 Main St.</a></li>
-                <li><a>Adirondck Hall</a></li>
-                <li><a>Bader Hall</a></li>
-                <li><a>Boardman Hall</a></li>
-                <li><a>Butler, Juniper and Valcour</a></li>
-                <li><a>Carriage House</a></li>
-                <li><a>Cushing Hall</a></li>
-                <li><a>Hill Hall</a></li>
-                <li><a>Jensen Hall</a></li>
-                <li><a>Lyman Hall</a></li>
-                <li><a>McDonald Hall</a></li>
-                <li><a>North Hall</a></li>
-                <li><a>Pearl Hall</a></li>
-                <li><a>Rowell Hall</a></li>
-                <li><a>Sanders Hall</a></li>
-                <li><a class="buildingLink" id="schillhammer-hall"><span class="buildingLabel">Schillhammer Hall</span></a></li>
-                <li><a>South House</a></li>
-                <li><a>Spinner Place</a></li>
-                <li><a>Summit Hall</a></li>
-                <li><a>Whiting Hall</a></li>
-            </ul>
+            <div id="mapLayerWrapper">
+                <ul id="layerControls">
+                    <li><a>Labels</a>
+                        <ul>
+                            <li><a class="toggle layerOn labelToggle" data-group="Academics" href="#">Academics</a></li>
+                            <li><a class="toggle layerOn labelToggle" data-group="Residences" href="#">Residences</a></li>
+                            <li><a class="toggle layerOn labelToggle" data-group="Parking Areas" href="#">Parking Areas</a></li>
 
+                        </ul>
+                    </li>
+
+                </ul>
+            </div><!--end.mapLayerWrapper-->
+            <h3>Residential Buildings</h3>
+                <ul class="resList">
+                    <li><a>308 Maple</a></li>
+                    <li><a>371 Main St.</a></li>
+                    <li><a>396 Main St.</a></li>
+                    <li><a>Adirondck Hall</a></li>
+                    <li><a>Bader Hall</a></li>
+                    <li><a>Boardman Hall</a></li>
+                    <li><a>Butler, Juniper and Valcour</a></li>
+                    <li><a>Carriage House</a></li>
+                    <li><a>Cushing Hall</a></li>
+                    <li><a>Hill Hall</a></li>
+                    <li><a>Jensen Hall</a></li>
+                    <li><a>Lyman Hall</a></li>
+                    <li><a>McDonald Hall</a></li>
+                    <li><a>North Hall</a></li>
+                    <li><a>Pearl Hall</a></li>
+                    <li><a>Rowell Hall</a></li>
+                    <li><a>Sanders Hall</a></li>
+                    <li><a class="buildingLink" id="schillhammer-hall" href="#schillhammer-hall"><span class="buildingLabel" data-lat="44.473049" data-lng="-73.202671" title="Schillhammer Hall">Schillhammer Hall</span></a></li>
+                    <li><a>South House</a></li>
+                    <li><a>Spinner Place</a></li>
+                    <li><a>Summit Hall</a></li>
+                    <li><a>Whiting Hall</a></li>
+                </ul>
         </div><!--end #nav-->
     </div><!--end .legend-->
     <div id="map"></div>

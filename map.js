@@ -1,16 +1,4 @@
-// Legend Click Events
-
-$('#nav .buildingLink').click(function(){
-
-    var lat = $(this).data('lat');
-    var lon = $(this).data('lon');
-    if (lat != '' && lon != '') {
-        findMapItem(lat,lon,$(this));
-    }
-
-
-});
-
+var buildingMarkers = [];
 
 
 
@@ -105,6 +93,31 @@ function getMarkerIcon(mtype,path) {
             }
     }
 }
+
+function removeAllMarkers() {
+
+    // hide all previous markers
+    for(var i = 0; i < buildingMarkers.length; i++) {
+        buildingMarkers[i].setMap(null);
+    }
+    buildingMarkers = [];
+    buildingMarker.setMap(null);
+
+}
+
+
+// Legend Click Events
+
+$('#nav .buildingLink').click(function(){
+
+    var lat = $(this).data('lat');
+    var lon = $(this).data('lon');
+    if (lat != '' && lon != '') {
+        findMapItem(lat,lon,$(this));
+    }
+
+
+});
 
 
 //Extras

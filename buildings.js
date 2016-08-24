@@ -11,7 +11,22 @@ var allBuildings = [
         "lat": 44.47419,
         "lng": -73.206881,
         "description": "One of our smaller, more intimate residential settings, 308 Maple is home to our campus’ substance free program. Housing only 14 returning students, all residents of this building sign an agreement to live a lifestyle free from the effects of alcohol or drugs, including those over the legal drinking age. Alternative programming and events hosted by Residential Life staff play a large role in the success of this program.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-308-maple.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-308-maple.jpg",
+        "poly": [
+            { lat: -73.2068738, lng: 44.4742429 },
+            { lat: -73.2068691, lng: 44.4741577 },
+            { lat: -73.2068791, lng: 44.4741572 },
+            { lat: -73.2068764, lng: 44.4741271 },
+            { lat: -73.2068979, lng: 44.4741266 },
+            { lat: -73.2068959, lng: 44.4740429 },
+            { lat: -73.2067611, lng: 44.4740429 },
+            { lat: -73.2067645, lng: 44.4741639 },
+            { lat: -73.2067806, lng: 44.4741649 },
+            { lat: -73.2067852, lng: 44.4742328 },
+            { lat: -73.2068436, lng: 44.4742314 },
+            { lat: -73.2068436, lng: 44.4742443 },
+            { lat: -73.2068738, lng: 44.4742429 }
+        ]
     },
 
     {
@@ -21,7 +36,20 @@ var allBuildings = [
         "lat": 44.47591,
         "lng": -73.20445,
         "description": "This building was acquired by the college in 2012. A Victorian mansion much like our other buildings on campus, many of the rooms at 371 Main Street feature bay windows allowing an abundance of natural light to radiate the newly refurbished living spaces. Additionally, 371 Main Street features a huge common area with a pool/ping-pong table and wall-mounted television.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-371-main.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-371-main.jpg",
+        "poly": [
+            { lat: -73.204549, lng: 44.4759573 },
+            { lat: -73.2045396, lng: 44.4758046 },
+            { lat: -73.2045067, lng: 44.4758042 },
+            { lat: -73.204506, lng: 44.4756946 },
+            { lat: -73.2043766, lng: 44.4756989 },
+            { lat: -73.2043786, lng: 44.4757243 },
+            { lat: -73.2043619, lng: 44.4757238 },
+            { lat: -73.2043699, lng: 44.4758195 },
+            { lat: -73.2043431, lng: 44.4758214 },
+            { lat: -73.2043565, lng: 44.4759635 },
+            { lat: -73.204549, lng: 44.4759573 }
+        ]
     },
 
     {
@@ -31,7 +59,43 @@ var allBuildings = [
         "lat": 44.47659,
         "lng": -73.20337,
         "description": "396 Main is a residence hall with a feeling of “home.” 396 Main is a former mansion with a lovely entry hall, foyer, large windows and gorgeous woodwork. The lounge is the focal point of the hall, where you will often find students engaged in an array of social and educational activities. There are a total of 15 student rooms with approximately 34 primarily first year students in 396 Main.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-396-main.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-396-main.jpg",
+        "poly": [
+            { lat: -73.2034043, lng: 44.4765841 },
+            { lat: -73.2034003, lng: 44.4765185 },
+            { lat: -73.2033755, lng: 44.476519 },
+            { lat: -73.2033748, lng: 44.4765061 },
+            { lat: -73.2033882, lng: 44.4765061 },
+            { lat: -73.2034083, lng: 44.476497 },
+            { lat: -73.2034157, lng: 44.476485 },
+            { lat: -73.2034171, lng: 44.4764649 },
+            { lat: -73.203405, lng: 44.4764506 },
+            { lat: -73.2033869, lng: 44.4764448 },
+            { lat: -73.2033661, lng: 44.4764453 },
+            { lat: -73.2033487, lng: 44.476452 },
+            { lat: -73.2033366, lng: 44.4764692 },
+            { lat: -73.2033151, lng: 44.4764697 },
+            { lat: -73.2033151, lng: 44.4764601 },
+            { lat: -73.2032266, lng: 44.4764645 },
+            { lat: -73.203226, lng: 44.4764759 },
+            { lat: -73.2032105, lng: 44.476475 },
+            { lat: -73.2032125, lng: 44.4764822 },
+            { lat: -73.2031589, lng: 44.4764845 },
+            { lat: -73.2031649, lng: 44.4765434 },
+            { lat: -73.2031777, lng: 44.4765424 },
+            { lat: -73.2031797, lng: 44.4765735 },
+            { lat: -73.2032132, lng: 44.4765726 },
+            { lat: -73.2032125, lng: 44.4765812 },
+            { lat: -73.2031944, lng: 44.4765817 },
+            { lat: -73.2031998, lng: 44.4766333 },
+            { lat: -73.2032541, lng: 44.4766314 },
+            { lat: -73.2032575, lng: 44.4766692 },
+            { lat: -73.2033581, lng: 44.4766659 },
+            { lat: -73.2033587, lng: 44.476653 },
+            { lat: -73.2033849, lng: 44.476653 },
+            { lat: -73.2033809, lng: 44.476585 },
+            { lat: -73.2034043, lng: 44.4765841 }
+        ]
     },
 
     {
@@ -41,7 +105,14 @@ var allBuildings = [
         "lat": 44.47489,
         "lng": -73.20654,
         "description": "Students love Adirondack Hall for its small, intimate setting. Part of our sophomore year experience, the building houses only twenty students in beautiful, spacious rooms. The building, a former carriage house, was recently renovated. While it now features many modern niceties such as newer furniture and air-conditioning, it still possesses its historic architecture and charm.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-adirondak-house.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-adirondak-house.jpg",
+        "poly": [
+            { lat: -73.2066505, lng: 44.474942 },
+            { lat: -73.2066451, lng: 44.4748415 },
+            { lat: -73.2064446, lng: 44.4748453 },
+            { lat: -73.2064486, lng: 44.4749472 },
+            { lat: -73.2066505, lng: 44.474942 }
+        ]
     },
 
     {
@@ -51,7 +122,44 @@ var allBuildings = [
         "lat": 44.47367,
         "lng": -73.20282,
         "description": "Aiken was designed by the architect A.B. Fisher, who designed many homes and office buildings in Burlington between 1870 and 1893. Fisher originally came from Albany, New York, and lived first in Barre, Vermont and then in Burlington.The house was built in 1885 for Frederick Kennedy, who was not only involved in civic affairs in the city but also in turn the manager of the Burlington Woolen Company, the Colchester Mills, and the Burlington Flouring Company. Designed in the Queen Anne style, the house cost $15,000 to build. Mr. Kennedy was so intent on having every modern convenience in his new home that he even petitioned the city of Burlington to have telephone poles erected on Summit Street so that service would be available between his office at the woolen mills and his home.In 1900, Mr. Kennedy moved to rooms over the Masonic Temple on Church Street, and in 1902, the house was bought by General Stephen Perry Jocelyn, who wanted to settle his family in Burlington before setting off to the Philippines in 1902. General Jocelyn later commanded a military unit that was posted to San Francisco to help with earthquake relief in 1906.The house was inherited by his daughter Dorothy and her husband William Westervelt. Throughout most of the 20th century, Burlingtonians knew the house and its formal gardens as the \"Westervelt Estate.\" William Westervelt died in 1960, and his widow continued to live there until her death in 1981. The estate was sold soon thereafter to Champlain College by the Westervelt's daughter, Jane.Aiken Hall is named for Lola Aiken, widow of the late Governor of Vermont and Senator George Aiken. Mrs. Aiken was a trustee of Champlain College for many years.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2029906, lng: 44.4738017 },
+            { lat: -73.2029879, lng: 44.4737931 },
+            { lat: -73.2029986, lng: 44.4737922 },
+            { lat: -73.2029973, lng: 44.4737443 },
+            { lat: -73.2029879, lng: 44.4737443 },
+            { lat: -73.2029866, lng: 44.4737213 },
+            { lat: -73.202996, lng: 44.4737213 },
+            { lat: -73.2029919, lng: 44.4736821 },
+            { lat: -73.2029772, lng: 44.4736831 },
+            { lat: -73.2029758, lng: 44.4736697 },
+            { lat: -73.2029222, lng: 44.4736706 },
+            { lat: -73.2029209, lng: 44.4736352 },
+            { lat: -73.2028913, lng: 44.4736371 },
+            { lat: -73.2028833, lng: 44.4735548 },
+            { lat: -73.2027492, lng: 44.4735615 },
+            { lat: -73.2027492, lng: 44.4735797 },
+            { lat: -73.2027331, lng: 44.4735807 },
+            { lat: -73.2027358, lng: 44.4736075 },
+            { lat: -73.2027264, lng: 44.4736084 },
+            { lat: -73.2027291, lng: 44.473641 },
+            { lat: -73.2027063, lng: 44.47364 },
+            { lat: -73.2027049, lng: 44.4736515 },
+            { lat: -73.202666, lng: 44.4736524 },
+            { lat: -73.2026674, lng: 44.4736984 },
+            { lat: -73.2026808, lng: 44.4736984 },
+            { lat: -73.2026808, lng: 44.4737032 },
+            { lat: -73.2027251, lng: 44.4737013 },
+            { lat: -73.2027291, lng: 44.4737625 },
+            { lat: -73.2027814, lng: 44.4737615 },
+            { lat: -73.20278, lng: 44.4737443 },
+            { lat: -73.2028699, lng: 44.4737414 },
+            { lat: -73.2028712, lng: 44.4737472 },
+            { lat: -73.2028645, lng: 44.4737472 },
+            { lat: -73.2028672, lng: 44.4738056 },
+            { lat: -73.2029906, lng: 44.4738017 }
+        ]
     },
 
     {
@@ -72,7 +180,18 @@ var allBuildings = [
         "lat": 44.47369,
         "lng": -73.20483,
         "description": "Located at the corner of Maple and South Willard streets in the center of campus, Bader Hall represents the ideal combination of size and convenience at Champlain. Since Bader is located right in the middle of campus, residents have access to a variety of college facilities just a few steps away. Primarily housing incoming students, Bader is an ideal setting for a first year student looking for a smaller community. Once used as the administrative offices for a growing Champlain College, this residence is complete with a view of the lake from its west-facing windows. The interior of the building was also newly renovated in the summer of 2012.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-bader-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-bader-hall.jpg",
+        "poly": [
+            { lat: -73.2048762, lng: 44.4737807 },
+            { lat: -73.2048668, lng: 44.4736438 },
+            { lat: -73.2048306, lng: 44.4736448 },
+            { lat: -73.2048252, lng: 44.4735711 },
+            { lat: -73.2046925, lng: 44.473574 },
+            { lat: -73.2047059, lng: 44.4736544 },
+            { lat: -73.2046965, lng: 44.4736611 },
+            { lat: -73.2047059, lng: 44.4737855 },
+            { lat: -73.2048762, lng: 44.4737807 }
+        ]
     },
 
     {
@@ -83,7 +202,33 @@ var allBuildings = [
         "lng": -73.20569,
         "description": "This is another of the Champlain College buildings that was designed by the architect A. B. Fisher. It was built in 1889 for the prominent Burlington lawyer Henry Ballard, who lived there until 1902. Frank Wells, of the Wells family that built 158 So. Willard Street and 61 Summit Street, lived there until 1916, when the house was purchased by Frank Abernethy, a local department store entrepreneur. In the 1930's the house was sold to Trinity College, which named it Mercy Hall. It was sold in 1960 to the UVM fraternity Phi Mu Delta, from whom Champlain College purchased it in 1992. The house has undergone extensive renovation since its purchase. Bankus Hall was named for John Bankus, Vice-president of Finance at Champlain College from 1965 to 1977.",
         "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-bankus-hall.jpg",
-        "type": "ResidentialBuilding"
+        "type": "ResidentialBuilding",
+        "poly": [
+            { lat: -73.2057653, lng: 44.4722074 },
+            { lat: -73.2057908, lng: 44.4722064 },
+            { lat: -73.2057935, lng: 44.4720552 },
+            { lat: -73.2057425, lng: 44.4720552 },
+            { lat: -73.2057372, lng: 44.4720485 },
+            { lat: -73.2057224, lng: 44.4720418 },
+            { lat: -73.2056996, lng: 44.4720418 },
+            { lat: -73.2056876, lng: 44.4720543 },
+            { lat: -73.2056192, lng: 44.4720552 },
+            { lat: -73.2056125, lng: 44.4720428 },
+            { lat: -73.2056004, lng: 44.472037 },
+            { lat: -73.2055856, lng: 44.472037 },
+            { lat: -73.2055776, lng: 44.4720485 },
+            { lat: -73.2055803, lng: 44.47206 },
+            { lat: -73.205595, lng: 44.4720658 },
+            { lat: -73.205595, lng: 44.4721222 },
+            { lat: -73.2055829, lng: 44.4721232 },
+            { lat: -73.2055843, lng: 44.4721519 },
+            { lat: -73.2055937, lng: 44.4721509 },
+            { lat: -73.2055923, lng: 44.4722045 },
+            { lat: -73.2057077, lng: 44.4722055 },
+            { lat: -73.2057077, lng: 44.4722457 },
+            { lat: -73.2057653, lng: 44.4722457 },
+            { lat: -73.2057653, lng: 44.4722074 }
+        ]
     },
 
     {
@@ -93,7 +238,14 @@ var allBuildings = [
         "lat": 44.474362,
         "lng": -73.206783,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2069093, lng: 44.4745391 },
+            { lat: -73.2068818, lng: 44.4742989 },
+            { lat: -73.2066867, lng: 44.474308 },
+            { lat: -73.2066947, lng: 44.4745443 },
+            { lat: -73.2069093, lng: 44.4745391 }
+        ]
     },
 
     {
@@ -103,7 +255,19 @@ var allBuildings = [
         "lat": 44.4733,
         "lng": -73.20668,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2067343, lng: 44.4733319 },
+            { lat: -73.2067316, lng: 44.4732826 },
+            { lat: -73.2066907, lng: 44.4732826 },
+            { lat: -73.2066894, lng: 44.4732716 },
+            { lat: -73.2066773, lng: 44.4732744 },
+            { lat: -73.2066666, lng: 44.473272 },
+            { lat: -73.2066666, lng: 44.4732845 },
+            { lat: -73.206627, lng: 44.473285 },
+            { lat: -73.2066317, lng: 44.4733338 },
+            { lat: -73.2067343, lng: 44.4733319 }
+        ]
     },
 
     {
@@ -113,7 +277,22 @@ var allBuildings = [
         "lat": 44.472961,
         "lng": -73.203480,
         "description": "Carriage House is among the smaller residence hall communities at Champlain College: 15 students reside here in three double rooms, two triple rooms and one single room. Due to its smaller size, residents at Carriage House tend to establish a strong community. Located at the end of Cedar Lane and adjacent to Schillhammer Hall, Carriage and Schillhammer share staff and resources.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-carrage.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-carrage.jpg",
+        "poly": [
+            { lat: -73.2036102, lng: 44.4730897 },
+            { lat: -73.2036088, lng: 44.4730333 },
+            { lat: -73.2036182, lng: 44.4730323 },
+            { lat: -73.2036142, lng: 44.4730113 },
+            { lat: -73.2036062, lng: 44.4730113 },
+            { lat: -73.2036062, lng: 44.4729873 },
+            { lat: -73.2035874, lng: 44.4729873 },
+            { lat: -73.2035834, lng: 44.4729223 },
+            { lat: -73.2034881, lng: 44.4729223 },
+            { lat: -73.2034948, lng: 44.4731 },
+            { lat: -73.2035069, lng: 44.473061 },
+            { lat: -73.2035069, lng: 44.4730955 },
+            { lat: -73.2036102, lng: 44.4730897 }
+        ]
     },
 
     {
@@ -123,7 +302,44 @@ var allBuildings = [
         "lat": 44.473769,
         "lng": -73.204340,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2045047, lng: 44.4731577 },
+            { lat: -73.204392, lng: 44.4731634 },
+            { lat: -73.2043867, lng: 44.4731864 },
+            { lat: -73.2041775, lng: 44.4731941 },
+            { lat: -73.2041775, lng: 44.4732189 },
+            { lat: -73.2041265, lng: 44.4732228 },
+            { lat: -73.2041292, lng: 44.4732725 },
+            { lat: -73.2041131, lng: 44.4732725 },
+            { lat: -73.2041158, lng: 44.4733395 },
+            { lat: -73.2041346, lng: 44.4733357 },
+            { lat: -73.2041372, lng: 44.4733625 },
+            { lat: -73.2192, lng: 44.4733644 },
+            { lat: -73.238, lng: 44.4736764 },
+            { lat: -73.2038154, lng: 44.473684 },
+            { lat: -73.2038288, lng: 44.473818 },
+            { lat: -73.2038663, lng: 44.4738142 },
+            { lat: -73.2039092, lng: 44.4738123 },
+            { lat: -73.2039092, lng: 44.4738218 },
+            { lat: -73.2039951, lng: 44.4738199 },
+            { lat: -73.2039924, lng: 44.4738084 },
+            { lat: -73.2353, lng: 44.4738084 },
+            { lat: -73.238, lng: 44.473818 },
+            { lat: -73.2568, lng: 44.4738161 },
+            { lat: -73.2541, lng: 44.4738391 },
+            { lat: -73.2041587, lng: 44.4738333 },
+            { lat: -73.2041533, lng: 44.4738103 },
+            { lat: -73.2041721, lng: 44.4738084 },
+            { lat: -73.2041748, lng: 44.4738333 },
+            { lat: -73.2044806, lng: 44.4738218 },
+            { lat: -73.2045074, lng: 44.4738371 },
+            { lat: -73.2045718, lng: 44.4737816 },
+            { lat: -73.204502, lng: 44.4737376 },
+            { lat: -73.204494, lng: 44.4736132 },
+            { lat: -73.2045262, lng: 44.4736132 },
+            { lat: -73.2045047, lng: 44.4731577 }
+        ]
     },
 
     {
@@ -133,7 +349,22 @@ var allBuildings = [
         "lat": 44.47407,
         "lng": -73.206703,
         "description": "Carriage House is among the smaller residence hall communities at Champlain College: 15 students reside here in three double rooms, two triple rooms and one single room. Due to its smaller size, residents at Carriage House tend to establish a strong community. Located at the end of Cedar Lane and adjacent to Schillhammer Hall, Carriage and Schillhammer share staff and resources.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-carrage.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-carrage.jpg",
+        "poly": [
+            { lat: -73.2067001, lng: 44.4742113 },
+            { lat: -73.2066974, lng: 44.4741683 },
+            { lat: -73.2067169, lng: 44.4741673 },
+            { lat: -73.2067088, lng: 44.474062 },
+            { lat: -73.2065868, lng: 44.4740663 },
+            { lat: -73.2065861, lng: 44.4740879 },
+            { lat: -73.2065646, lng: 44.4740893 },
+            { lat: -73.2065727, lng: 44.4741381 },
+            { lat: -73.2065888, lng: 44.4741386 },
+            { lat: -73.2065915, lng: 44.474173 },
+            { lat: -73.2066679, lng: 44.4741702 },
+            { lat: -73.2066719, lng: 44.4742137 },
+            { lat: -73.2067001, lng: 44.4742113 }
+        ]
     },
 
     {
@@ -143,7 +374,32 @@ var allBuildings = [
         "lat": 44.47339,
         "lng": -73.20475,
         "description": "Cushing Hall is located in the center of campus and is home to 30 returning students; the College mailroom and student mailboxes are located in the lower level. Formerly an academic office building, Champlain renovated Cushing Hall in 2005, making it one of Champlain’s newest, air conditioned residence halls. From Cushing, it is just a short walk to the IDX Student Life Center, dining hall, fitness center, and academic buildings. Although Cushing may not look like a Victorian era home, it is very popular because of the location and the personal privacy it offers. Students in Cushing Hall are very connected to one another. Students take it upon themselves to be welcoming and energetic about opening their rooms to other residents.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-cushing-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-cushing-hall.jpg",
+        "poly": [
+            { lat: -73.2048762, lng: 44.4733539 },
+            { lat: -73.2048735, lng: 44.473307 },
+            { lat: -73.2048909, lng: 44.473306 },
+            { lat: -73.2048869, lng: 44.473284 },
+            { lat: -73.2048735, lng: 44.4732869 },
+            { lat: -73.2048681, lng: 44.4732199 },
+            { lat: -73.2048078, lng: 44.4732218 },
+            { lat: -73.2048078, lng: 44.4732448 },
+            { lat: -73.2046804, lng: 44.4732486 },
+            { lat: -73.2046817, lng: 44.4733137 },
+            { lat: -73.2046442, lng: 44.4733127 },
+            { lat: -73.2046469, lng: 44.4733529 },
+            { lat: -73.2046348, lng: 44.4733529 },
+            { lat: -73.2046361, lng: 44.4733845 },
+            { lat: -73.2046442, lng: 44.4733854 },
+            { lat: -73.2046442, lng: 44.473396 },
+            { lat: -73.2046174, lng: 44.473396 },
+            { lat: -73.2046214, lng: 44.4734467 },
+            { lat: -73.2048132, lng: 44.473439 },
+            { lat: -73.2048091, lng: 44.4733673 },
+            { lat: -73.2048534, lng: 44.4733654 },
+            { lat: -73.204852, lng: 44.4733539 },
+            { lat: -73.2048762, lng: 44.4733539 }
+        ]
     },
 
     {
@@ -153,7 +409,24 @@ var allBuildings = [
         "lat": 44.475363,
         "lng": -73.205041,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2051095, lng: 44.4754601 },
+            { lat: -73.2051008, lng: 44.4753348 },
+            { lat: -73.2051129, lng: 44.4753353 },
+            { lat: -73.2051089, lng: 44.4752654 },
+            { lat: -73.2049687, lng: 44.4752692 },
+            { lat: -73.2049748, lng: 44.4753448 },
+            { lat: -73.2056, lng: 44.4753429 },
+            { lat: -73.2069, lng: 44.4753496 },
+            { lat: -73.219, lng: 44.4753487 },
+            { lat: -73.2217, lng: 44.4753745 },
+            { lat: -73.2049989, lng: 44.4753745 },
+            { lat: -73.2009, lng: 44.4753994 },
+            { lat: -73.211, lng: 44.4753989 },
+            { lat: -73.2157, lng: 44.4754645 },
+            { lat: -73.2051095, lng: 44.4754601 }
+        ]
     },
 
     {
@@ -163,7 +436,26 @@ var allBuildings = [
         "lat": 44.473234,
         "lng": -73.203222,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2033366, lng: 44.4732869 },
+            { lat: -73.2033916, lng: 44.4732831 },
+            { lat: -73.2033822, lng: 44.4731759 },
+            { lat: -73.2032897, lng: 44.4731787 },
+            { lat: -73.2032897, lng: 44.4731606 },
+            { lat: -73.2031488, lng: 44.4731663 },
+            { lat: -73.2031475, lng: 44.4731816 },
+            { lat: -73.2523, lng: 44.4731854 },
+            { lat: -73.2603, lng: 44.4732955 },
+            { lat: -73.203122, lng: 44.4732936 },
+            { lat: -73.2031207, lng: 44.4733185 },
+            { lat: -73.203169, lng: 44.4733156 },
+            { lat: -73.2031676, lng: 44.4732917 },
+            { lat: -73.203287, lng: 44.4732888 },
+            { lat: -73.2032897, lng: 44.4733108 },
+            { lat: -73.2033366, lng: 44.4733089 },
+            { lat: -73.2033366, lng: 44.4732869 }
+        ]
     },
 
     {
@@ -173,7 +465,24 @@ var allBuildings = [
         "lat": 44.473168,
         "lng": -73.203852,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2037657, lng: 44.4737 },
+            { lat: -73.2036987, lng: 44.4730945 },
+            { lat: -73.2036987, lng: 44.4731826 },
+            { lat: -73.2037202, lng: 44.4732993 },
+            { lat: -73.2038167, lng: 44.4732955 },
+            { lat: -73.203814, lng: 44.4732706 },
+            { lat: -73.2038489, lng: 44.4732706 },
+            { lat: -73.2038704, lng: 44.4732553 },
+            { lat: -73.2038811, lng: 44.4732228 },
+            { lat: -73.2071, lng: 44.4732189 },
+            { lat: -73.2071, lng: 44.4731098 },
+            { lat: -73.2039857, lng: 44.4731098 },
+            { lat: -73.203983, lng: 44.4730926 },
+            { lat: -73.2037684, lng: 44.4731022 },
+            { lat: -73.2037657, lng: 44.4737 }
+        ]
     },
 
     {
@@ -183,7 +492,18 @@ var allBuildings = [
         "lat": 44.47480,
         "lng": -73.20618,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2062703, lng: 44.4749635 },
+            { lat: -73.2062629, lng: 44.4748443 },
+            { lat: -73.2062314, lng: 44.4748453 },
+            { lat: -73.206228, lng: 44.4748243 },
+            { lat: -73.2061764, lng: 44.4748262 },
+            { lat: -73.2061791, lng: 44.4748439 },
+            { lat: -73.206104, lng: 44.4748472 },
+            { lat: -73.206112, lng: 44.4749673 },
+            { lat: -73.2062703, lng: 44.4749635 }
+        ]
     },
 
     {
@@ -203,7 +523,54 @@ var allBuildings = [
         "lat": 44.47372,
         "lng": -73.20566,
         "description": "Newly renovated, Hill Hall is another example of the lovely turn-of-the century mansions that are now Champlain College residence halls. This air conditioned building is located on the corner of South Willard and Maple streets in the center of campus. Hill boasts beautiful woodwork and recently renovated bathrooms. Students like the friendly, homey atmosphere of Hill Hall, and they particularly appreciate the trust and respect students show each other. Hill houses approximately 39 primarily first year students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-hill-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-hill-hall.jpg",
+        "poly": [
+            { lat: -73.2056815, lng: 44.4736649 },
+            { lat: -73.2056735, lng: 44.4736639 },
+            { lat: -73.2056735, lng: 44.4736553 },
+            { lat: -73.2056641, lng: 44.4736563 },
+            { lat: -73.2056627, lng: 44.4736419 },
+            { lat: -73.2056359, lng: 44.473639 },
+            { lat: -73.2056386, lng: 44.4736544 },
+            { lat: -73.2056319, lng: 44.4736553 },
+            { lat: -73.2056306, lng: 44.473662 },
+            { lat: -73.2056198, lng: 44.473662 },
+            { lat: -73.2056185, lng: 44.4736706 },
+            { lat: -73.2055742, lng: 44.4736706 },
+            { lat: -73.2055756, lng: 44.4736821 },
+            { lat: -73.2055608, lng: 44.4736821 },
+            { lat: -73.2055608, lng: 44.4737022 },
+            { lat: -73.2055514, lng: 44.4737003 },
+            { lat: -73.2055514, lng: 44.4737204 },
+            { lat: -73.2055434, lng: 44.4737185 },
+            { lat: -73.2055447, lng: 44.4737625 },
+            { lat: -73.2055648, lng: 44.4737644 },
+            { lat: -73.2055742, lng: 44.4737644 },
+            { lat: -73.2055729, lng: 44.4738036 },
+            { lat: -73.2055917, lng: 44.4738046 },
+            { lat: -73.2055997, lng: 44.4738151 },
+            { lat: -73.2056279, lng: 44.4738151 },
+            { lat: -73.2056399, lng: 44.4738036 },
+            { lat: -73.2056534, lng: 44.4738065 },
+            { lat: -73.2056641, lng: 44.473819 },
+            { lat: -73.2056802, lng: 44.4738257 },
+            { lat: -73.2056976, lng: 44.4738257 },
+            { lat: -73.2057124, lng: 44.473818 },
+            { lat: -73.2057218, lng: 44.4737998 },
+            { lat: -73.2057432, lng: 44.4737998 },
+            { lat: -73.2057405, lng: 44.473818 },
+            { lat: -73.2057687, lng: 44.473818 },
+            { lat: -73.2057687, lng: 44.4738132 },
+            { lat: -73.2057781, lng: 44.4738142 },
+            { lat: -73.2057794, lng: 44.473819 },
+            { lat: -73.2058036, lng: 44.473818 },
+            { lat: -73.2058049, lng: 44.4737099 },
+            { lat: -73.2057767, lng: 44.4737089 },
+            { lat: -73.2057794, lng: 44.4737166 },
+            { lat: -73.2057633, lng: 44.4737185 },
+            { lat: -73.205762, lng: 44.4736611 },
+            { lat: -73.2056815, lng: 44.4736649 }
+        ]
     },
 
     {
@@ -213,7 +580,38 @@ var allBuildings = [
         "lat": 44.47268,
         "lng": -73.20458,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2047783, lng: 44.4726878 },
+            { lat: -73.2047635, lng: 44.4725012 },
+            { lat: -73.2041869, lng: 44.4725165 },
+            { lat: -73.2041641, lng: 44.4725366 },
+            { lat: -73.2041761, lng: 44.4726744 },
+            { lat: -73.2041332, lng: 44.4726744 },
+            { lat: -73.2041185, lng: 44.472683 },
+            { lat: -73.2041171, lng: 44.4727108 },
+            { lat: -73.2041292, lng: 44.4727108 },
+            { lat: -73.2041305, lng: 44.4727634 },
+            { lat: -73.2041949, lng: 44.4727625 },
+            { lat: -73.2042083, lng: 44.4730754 },
+            { lat: -73.2042244, lng: 44.4730754 },
+            { lat: -73.2042298, lng: 44.4731299 },
+            { lat: -73.2043035, lng: 44.473129 },
+            { lat: -73.2042982, lng: 44.4730773 },
+            { lat: -73.2044792, lng: 44.4730668 },
+            { lat: -73.2044698, lng: 44.4728543 },
+            { lat: -73.2044873, lng: 44.4728515 },
+            { lat: -73.2045181, lng: 44.4728409 },
+            { lat: -73.2045302, lng: 44.4728294 },
+            { lat: -73.2045409, lng: 44.4728132 },
+            { lat: -73.2045409, lng: 44.4727969 },
+            { lat: -73.2045355, lng: 44.4727797 },
+            { lat: -73.2045235, lng: 44.4727672 },
+            { lat: -73.204502, lng: 44.4727558 },
+            { lat: -73.2044752, lng: 44.4727471 },
+            { lat: -73.2044712, lng: 44.4727031 },
+            { lat: -73.2047783, lng: 44.4726878 }
+        ]
     },
 
     {
@@ -223,7 +621,43 @@ var allBuildings = [
         "lat": 44.4718,
         "lng": -73.2056,
         "description": "Jensen Hall, rumored to be haunted by a former occupant, is one of our most attractive and certainly one of our most highly sought after residence halls. The two-level \"tower room\" is one of Champlain’s best known architectural features. Jensen Hall houses approximately 38 primarily first year students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-jensen-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-jensen-hall.jpg",
+        "poly": [
+            { lat: -73.2055903, lng: 44.471893 },
+            { lat: -73.2055903, lng: 44.4718648 },
+            { lat: -73.2055742, lng: 44.4718653 },
+            { lat: -73.2055749, lng: 44.47186 },
+            { lat: -73.2056158, lng: 44.4718614 },
+            { lat: -73.2056171, lng: 44.4718557 },
+            { lat: -73.2056232, lng: 44.4718547 },
+            { lat: -73.2056232, lng: 44.4718241 },
+            { lat: -73.2056473, lng: 44.4718222 },
+            { lat: -73.2056715, lng: 44.4718136 },
+            { lat: -73.2056802, lng: 44.4717988 },
+            { lat: -73.2056815, lng: 44.4717791 },
+            { lat: -73.2056708, lng: 44.4717629 },
+            { lat: -73.205644, lng: 44.4717566 },
+            { lat: -73.2056433, lng: 44.4717394 },
+            { lat: -73.2056218, lng: 44.4717399 },
+            { lat: -73.2056218, lng: 44.4717136 },
+            { lat: -73.2054884, lng: 44.471716 },
+            { lat: -73.2054891, lng: 44.4717318 },
+            { lat: -73.2054763, lng: 44.4717342 },
+            { lat: -73.2054783, lng: 44.4717547 },
+            { lat: -73.2054683, lng: 44.4717562 },
+            { lat: -73.205469, lng: 44.4717629 },
+            { lat: -73.2053965, lng: 44.4717648 },
+            { lat: -73.2054012, lng: 44.4718122 },
+            { lat: -73.205473, lng: 44.4718098 },
+            { lat: -73.2054589, lng: 44.4718155 },
+            { lat: -73.2054535, lng: 44.4718256 },
+            { lat: -73.2054582, lng: 44.4718567 },
+            { lat: -73.2054743, lng: 44.4718586 },
+            { lat: -73.2054743, lng: 44.4719031 },
+            { lat: -73.2055742, lng: 44.471904 },
+            { lat: -73.2055729, lng: 44.471893 },
+            { lat: -73.2055903, lng: 44.471893 }
+        ]
     },
 
     {
@@ -233,7 +667,28 @@ var allBuildings = [
         "lat": 44.4729,
         "lng": -73.2039,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2037121, lng: 44.47275 },
+            { lat: -73.2037228, lng: 44.4728495 },
+            { lat: -73.2037121, lng: 44.4728515 },
+            { lat: -73.2037202, lng: 44.4729165 },
+            { lat: -73.203755, lng: 44.4729146 },
+            { lat: -73.2037684, lng: 44.4731022 },
+            { lat: -73.2715, lng: 44.4730888 },
+            { lat: -73.2662, lng: 44.4729854 },
+            { lat: -73.204101, lng: 44.4729816 },
+            { lat: -73.2957, lng: 44.4729472 },
+            { lat: -73.2608, lng: 44.4729472 },
+            { lat: -73.2501, lng: 44.4728342 },
+            { lat: -73.2039776, lng: 44.4728361 },
+            { lat: -73.2039776, lng: 44.4728227 },
+            { lat: -73.2527, lng: 44.472817 },
+            { lat: -73.2393, lng: 44.4727156 },
+            { lat: -73.2039455, lng: 44.4727175 },
+            { lat: -73.2039508, lng: 44.4727424 },
+            { lat: -73.2037121, lng: 44.47275 }
+        ]
     },
 
     {
@@ -243,7 +698,14 @@ var allBuildings = [
         "lat": 44.474664,
         "lng": -73.206887,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2067591, lng: 44.4749176 },
+            { lat: -73.2069408, lng: 44.4749099 },
+            { lat: -73.2069187, lng: 44.4746018 },
+            { lat: -73.206737, lng: 44.4746094 },
+            { lat: -73.2067591, lng: 44.4749176 }
+        ]
     },
 
 
@@ -254,7 +716,36 @@ var allBuildings = [
         "lat": 44.4735,
         "lng": -73.20568,
         "description": "This turn of the century mansion has some of the most beautiful interior woodwork on the Champlain College campus. In nice weather students gather on the porch to visit and watch the world go by. Located next to Hill Hall, Lyman is in the center of campus. 38 residents, primarily first year students share this warm community. Lyman Hall houses approximately 38 students who live in 4 doubles, 9 triples, and 1 quad.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-lyman-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-lyman-hall.jpg",
+        "poly": [
+            { lat: -73.2057298, lng: 44.4735515 },
+            { lat: -73.2057995, lng: 44.4735505 },
+            { lat: -73.2057995, lng: 44.4734587 },
+            { lat: -73.2057218, lng: 44.4734587 },
+            { lat: -73.2057204, lng: 44.4734319 },
+            { lat: -73.2056453, lng: 44.4734357 },
+            { lat: -73.2056399, lng: 44.4734204 },
+            { lat: -73.2055541, lng: 44.4734242 },
+            { lat: -73.2055541, lng: 44.4734376 },
+            { lat: -73.2055313, lng: 44.4734395 },
+            { lat: -73.2055327, lng: 44.4734587 },
+            { lat: -73.2055219, lng: 44.4734596 },
+            { lat: -73.2055233, lng: 44.4734874 },
+            { lat: -73.2054911, lng: 44.4734874 },
+            { lat: -73.2054964, lng: 44.473518 },
+            { lat: -73.2055367, lng: 44.4735151 },
+            { lat: -73.2055367, lng: 44.4735199 },
+            { lat: -73.2055474, lng: 44.4735209 },
+            { lat: -73.2055675, lng: 44.4735697 },
+            { lat: -73.2056011, lng: 44.4735697 },
+            { lat: -73.2056051, lng: 44.4735611 },
+            { lat: -73.2056399, lng: 44.4735572 },
+            { lat: -73.2056453, lng: 44.4735735 },
+            { lat: -73.2056587, lng: 44.4735812 },
+            { lat: -73.2056842, lng: 44.473585 },
+            { lat: -73.2057003, lng: 44.4735802 },
+            { lat: -73.2057298, lng: 44.4735515 }
+        ]
     },
     {
         "name": "McDonald Hall",
@@ -263,7 +754,34 @@ var allBuildings = [
         "lat": 44.47419,
         "lng": -73.20576,
         "description": "McDonald Hall is located on northwest corner of Maple and South Willard streets. McDonald features turrets, arches, a formal main stairway, and beautiful woodwork. This unique residence hall is constructed of red brick with a slate roof. McDonald Hall is a beautiful and popular residence hall and home to approximately 48 residents. You will often find residents hanging out on the front porch, engaged in frequent social and educational activities, and enjoying the front lawn on warm days. McDonald Hall houses primarily first year students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-mcdonald-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-mcdonald-hall.jpg",
+        "poly": [
+            { lat: -73.2059021, lng: 44.4742783 },
+            { lat: -73.2058948, lng: 44.474073 },
+            { lat: -73.2058512, lng: 44.474052 },
+            { lat: -73.2057922, lng: 44.4740558 },
+            { lat: -73.2057593, lng: 44.4740845 },
+            { lat: -73.2056775, lng: 44.474085 },
+            { lat: -73.2056641, lng: 44.4743 },
+            { lat: -73.2056601, lng: 44.4740998 },
+            { lat: -73.2056614, lng: 44.4741094 },
+            { lat: -73.2056735, lng: 44.4741204 },
+            { lat: -73.2056889, lng: 44.4741223 },
+            { lat: -73.2056882, lng: 44.4741386 },
+            { lat: -73.2056373, lng: 44.4741376 },
+            { lat: -73.2056466, lng: 44.4741553 },
+            { lat: -73.205642, lng: 44.474174 },
+            { lat: -73.2056795, lng: 44.474174 },
+            { lat: -73.2056795, lng: 44.4742898 },
+            { lat: -73.2056936, lng: 44.4743128 },
+            { lat: -73.2056876, lng: 44.4743314 },
+            { lat: -73.2057573, lng: 44.4743305 },
+            { lat: -73.2057586, lng: 44.4743051 },
+            { lat: -73.2057506, lng: 44.474285 },
+            { lat: -73.2057372, lng: 44.474286 },
+            { lat: -73.2057452, lng: 44.4742788 },
+            { lat: -73.2059021, lng: 44.4742783 }
+        ]
     },
 
     {
@@ -273,7 +791,16 @@ var allBuildings = [
         "lat": 44.472905,
         "lng": -73.20698,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2823, lng: 44.4729883 },
+            { lat: -73.2743, lng: 44.472839 },
+            { lat: -73.2068919, lng: 44.4728409 },
+            { lat: -73.2068919, lng: 44.4729213 },
+            { lat: -73.2069562, lng: 44.4729213 },
+            { lat: -73.2069562, lng: 44.4729883 },
+            { lat: -73.2823, lng: 44.4729883 }
+        ]
     },
 
     {
@@ -293,7 +820,30 @@ var allBuildings = [
         "lat": 44.47341,
         "lng": -73.20273,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.202941, lng: 44.4733165 },
+            { lat: -73.2174, lng: 44.4733146 },
+            { lat: -73.208, lng: 44.4731797 },
+            { lat: -73.2026486, lng: 44.4731912 },
+            { lat: -73.202658, lng: 44.4733098 },
+            { lat: -73.2026459, lng: 44.4733108 },
+            { lat: -73.2026339, lng: 44.4733194 },
+            { lat: -73.2026191, lng: 44.4733453 },
+            { lat: -73.2026272, lng: 44.4733673 },
+            { lat: -73.2026419, lng: 44.4733778 },
+            { lat: -73.2026593, lng: 44.4733807 },
+            { lat: -73.202666, lng: 44.4734563 },
+            { lat: -73.2028431, lng: 44.4734515 },
+            { lat: -73.2028417, lng: 44.4734467 },
+            { lat: -73.2028712, lng: 44.4734467 },
+            { lat: -73.2028779, lng: 44.4734515 },
+            { lat: -73.2029316, lng: 44.4734515 },
+            { lat: -73.2029678, lng: 44.4734237 },
+            { lat: -73.2029651, lng: 44.4733768 },
+            { lat: -73.2029437, lng: 44.4733644 },
+            { lat: -73.202941, lng: 44.4733165 }
+        ]
     },
 
     {
@@ -303,7 +853,31 @@ var allBuildings = [
         "lat": 44.47945,
         "lng": -73.20531,
         "description": "Located only two blocks north of the main campus, North House is one of our smaller residence halls. North House offers an ideal combination of personal privacy, comfort, and the traditional Champlain residence hall experience. The primarily first year residents of North House describe the community as warm, comfortable, homey, and intimate —living in this residence hall is just like living in a big house! North House contains approximately twenty residents. North House is a very short walk to downtown Burlington, making its location the ideal spot, nestled within a quiet neighborhood between the Champlain campus and Burlington attractions.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-north-house.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-north-house.jpg",
+        "poly": [
+            { lat: -73.2053972, lng: 44.4795012 },
+            { lat: -73.2053939, lng: 44.4794787 },
+            { lat: -73.2054012, lng: 44.47945 },
+            { lat: -73.2053892, lng: 44.4794179 },
+            { lat: -73.2053898, lng: 44.4793945 },
+            { lat: -73.2052289, lng: 44.479395 },
+            { lat: -73.205188, lng: 44.4794232 },
+            { lat: -73.2051692, lng: 44.4794242 },
+            { lat: -73.2051692, lng: 44.4794285 },
+            { lat: -73.2051491, lng: 44.4794285 },
+            { lat: -73.2051504, lng: 44.4794356 },
+            { lat: -73.2051571, lng: 44.4794366 },
+            { lat: -73.2051551, lng: 44.4794462 },
+            { lat: -73.2051518, lng: 44.4794615 },
+            { lat: -73.2051618, lng: 44.479462 },
+            { lat: -73.2051605, lng: 44.4794701 },
+            { lat: -73.2051424, lng: 44.4794687 },
+            { lat: -73.2051431, lng: 44.4795007 },
+            { lat: -73.2051692, lng: 44.4795007 },
+            { lat: -73.2052664, lng: 44.4795002 },
+            { lat: -73.2052658, lng: 44.4795055 },
+            { lat: -73.2053972, lng: 44.4795012 }
+        ]
     },
     {
         "name": "Pearl Hall",
@@ -312,7 +886,51 @@ var allBuildings = [
         "lat": 44.47293,
         "lng": -73.20467,
         "description": "Pearl Hall is literally surrounded by Champlain buildings and offers the most convenience in a residence hall for Champlain students. Pearl Hall is the closest residence hall to the fitness center, dining hall, gym, and the entire IDX Student Life Center. The primarily first year residents of Pearl describe its beautiful tile bathrooms and its large porch as creating a comfortable living space on campus. Pearl Hall is also very close to most academic buildings on campus, making it a short walk from bedroom-to-classroom!Pearl Hall houses approximately 49, creating a great environment for meeting new people and making new friends. Pearl’s room layout is quite unique, from turret rooms to L-shapes, to corner singles, Pearl has something for everybody. Its brand new front porch is a great place to hang out with friends or to get some studying done on a warm fall day.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-pearl-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-pearl-hall.jpg",
+        "poly": [
+            { lat: -73.2048601, lng: 44.4728505 },
+            { lat: -73.2047957, lng: 44.4728505 },
+            { lat: -73.2047984, lng: 44.4728735 },
+            { lat: -73.204781, lng: 44.4728735 },
+            { lat: -73.2047743, lng: 44.472861 },
+            { lat: -73.2047501, lng: 44.4728553 },
+            { lat: -73.2047354, lng: 44.4728629 },
+            { lat: -73.2047273, lng: 44.4728754 },
+            { lat: -73.2046844, lng: 44.4728763 },
+            { lat: -73.2046831, lng: 44.472884 },
+            { lat: -73.2046455, lng: 44.4728859 },
+            { lat: -73.2046509, lng: 44.4729108 },
+            { lat: -73.2045798, lng: 44.4729146 },
+            { lat: -73.2045785, lng: 44.4729079 },
+            { lat: -73.204549, lng: 44.4729098 },
+            { lat: -73.2045476, lng: 44.4729165 },
+            { lat: -73.2045114, lng: 44.4729204 },
+            { lat: -73.2045114, lng: 44.4729376 },
+            { lat: -73.2044792, lng: 44.4729366 },
+            { lat: -73.2044846, lng: 44.4730094 },
+            { lat: -73.2045154, lng: 44.4730074 },
+            { lat: -73.2045154, lng: 44.4730122 },
+            { lat: -73.2045463, lng: 44.4730113 },
+            { lat: -73.2045476, lng: 44.4730266 },
+            { lat: -73.2045785, lng: 44.4730275 },
+            { lat: -73.2045785, lng: 44.4733 },
+            { lat: -73.2046214, lng: 44.4730084 },
+            { lat: -73.2046254, lng: 44.473018 },
+            { lat: -73.2046509, lng: 44.473017 },
+            { lat: -73.2046495, lng: 44.4730074 },
+            { lat: -73.2047743, lng: 44.4730017 },
+            { lat: -73.2047743, lng: 44.4729902 },
+            { lat: -73.2048199, lng: 44.4729893 },
+            { lat: -73.2048172, lng: 44.4729567 },
+            { lat: -73.2048413, lng: 44.4729558 },
+            { lat: -73.2048413, lng: 44.4729462 },
+            { lat: -73.2048775, lng: 44.4729481 },
+            { lat: -73.2048748, lng: 44.4729165 },
+            { lat: -73.20484, lng: 44.4729184 },
+            { lat: -73.2048386, lng: 44.4728983 },
+            { lat: -73.2048628, lng: 44.4728964 },
+            { lat: -73.2048601, lng: 44.4728505 }
+        ]
     },
 
     {
@@ -322,7 +940,36 @@ var allBuildings = [
         "lat": 44.4732,
         "lng": -73.205999,
         "description": "",
-        "image": ""
+        "image": "",
+        'poly':[
+            { lat: -73.2061113, lng: 44.4732658 },
+            { lat: -73.2061046, lng: 44.4731414 },
+            { lat: -73.2059209, lng: 44.4731462 },
+            { lat: -73.2059209, lng: 44.4731366 },
+            { lat: -73.2058793, lng: 44.4731376 },
+            { lat: -73.2058713, lng: 44.4730419 },
+            { lat: -73.2058847, lng: 44.4730419 },
+            { lat: -73.2058847, lng: 44.4730228 },
+            { lat: -73.2403, lng: 44.4730218 },
+            { lat: -73.2389, lng: 44.4729338 },
+            { lat: -73.2058538, lng: 44.4729318 },
+            { lat: -73.2058538, lng: 44.4729194 },
+            { lat: -73.2056634, lng: 44.4729175 },
+            { lat: -73.2056634, lng: 44.4730381 },
+            { lat: -73.2056406, lng: 44.473039 },
+            { lat: -73.2056513, lng: 44.4731596 },
+            { lat: -73.2057855, lng: 44.4731539 },
+            { lat: -73.2057881, lng: 44.4732773 },
+            { lat: -73.2058136, lng: 44.4732764 },
+            { lat: -73.2058163, lng: 44.4732965 },
+            { lat: -73.2058686, lng: 44.4732945 },
+            { lat: -73.2058699, lng: 44.4733079 },
+            { lat: -73.2059196, lng: 44.473306 },
+            { lat: -73.2059182, lng: 44.4732802 },
+            { lat: -73.205988, lng: 44.4732773 },
+            { lat: -73.205988, lng: 44.4732687 },
+            { lat: -73.2061113, lng: 44.4732658 }
+        ]
     },
 
 
@@ -343,7 +990,24 @@ var allBuildings = [
         "lat": 44.47282,
         "lng": -73.20258,
         "description": "Current Use: Residence of the president of the College. Year of Construction: 1920's. Year Purchased by Champlain College: 1997. History: This house was built as a duplex, split horizontally rather than vertically. It was rented to a series of tenants until 1944, when it was purchased by the Way family. Marion Way occupied the house until her death in 1997, when it was deeded to the College.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2027445, lng: 44.4728945 },
+            { lat: -73.2027391, lng: 44.472816 },
+            { lat: -73.2026104, lng: 44.4728199 },
+            { lat: -73.2026064, lng: 44.4727577 },
+            { lat: -73.2024548, lng: 44.4727644 },
+            { lat: -73.2024562, lng: 44.4727854 },
+            { lat: -73.2024159, lng: 44.4727864 },
+            { lat: -73.2024173, lng: 44.4728275 },
+            { lat: -73.2024615, lng: 44.4728256 },
+            { lat: -73.2024642, lng: 44.4728562 },
+            { lat: -73.2026131, lng: 44.4728534 },
+            { lat: -73.2026131, lng: 44.4728467 },
+            { lat: -73.2026332, lng: 44.4728467 },
+            { lat: -73.2026318, lng: 44.4728993 },
+            { lat: -73.2027445, lng: 44.4728945 }
+        ]
     },
 
     {
@@ -353,7 +1017,16 @@ var allBuildings = [
         "lat": 44.472249,
         "lng": -73.206398,
         "description": "Current Use: Rowell Annex is located on South Willard Street and contains Champlain's Physical Plant. Location: 275 South Willard Street. Year of Construction: 1918. Original Owner: Roy Leonard Patrick. Year Purchased by Champlain College: 1972. History: The building known as the Annex was the garage for the Patrick house, now called Rowell Hall. Since Rowell Hall was built in 1918, it does not have the classic Victorian look of most of the other houses in the area. It is, however, a beautifully designed building. The original owner, Roy Leonard Patrick, was the treasurer of the G. S. Blodgett Company, secretary of the Standard Coal and Fuel Company, treasurer of the Eastern Magnesia Talc Company, treasurer of the Woodbury Granite Company, and president of the Rock of Ages Corporation in Barre. The house remained in the Patrick family until 1953, when it was sold to the University of Vermont. It was purchased by Champlain College in 1972.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2064962, lng: 44.4723012 },
+            { lat: -73.2064895, lng: 44.472216 },
+            { lat: -73.2062414, lng: 44.4722313 },
+            { lat: -73.2062508, lng: 44.4723012 },
+            { lat: -73.2063313, lng: 44.4722983 },
+            { lat: -73.2063326, lng: 44.4723098 },
+            { lat: -73.2064962, lng: 44.4723012 },
+        ]
     },
 
     {
@@ -363,7 +1036,26 @@ var allBuildings = [
         "lat": 44.472454,
         "lng": -73.205685,
         "description": "Rowell Hall underwent a wonderful renovation is the summer of 2006. A Greek Revival mansion, Rowell Hall stands out as one of Champlain’s most beautiful and most sought-after residence halls. Residents of Rowell describe the rooms as beautiful and stunning. Rowell Hall houses approximately 49 first year students. Rowell Hall is an air conditioned building with large bathrooms, a refrigerator, television, and microwave. With its center-of-campus location, modest resident capacity, and attractive rooms, this hall is often the first choice for many Champlain students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-rowell-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-rowell-hall.jpg",
+        "poly": [
+            { lat: -73.2057848, lng: 44.4725222 },
+            { lat: -73.2057861, lng: 44.4724624 },
+            { lat: -73.2057573, lng: 44.4724624 },
+            { lat: -73.2057559, lng: 44.472428 },
+            { lat: -73.2057969, lng: 44.4724275 },
+            { lat: -73.2057969, lng: 44.4723017 },
+            { lat: -73.205642, lng: 44.4722993 },
+            { lat: -73.2056433, lng: 44.4723275 },
+            { lat: -73.2056017, lng: 44.4723275 },
+            { lat: -73.2056031, lng: 44.4723806 },
+            { lat: -73.2055923, lng: 44.4723811 },
+            { lat: -73.2055917, lng: 44.4724198 },
+            { lat: -73.2056044, lng: 44.4724203 },
+            { lat: -73.2056037, lng: 44.4724754 },
+            { lat: -73.2056272, lng: 44.4724758 },
+            { lat: -73.2056272, lng: 44.4725256 },
+            { lat: -73.2057848, lng: 44.4725222 }
+        ]
     },
 
     {
@@ -373,7 +1065,42 @@ var allBuildings = [
         "lat": 44.47373,
         "lng": -73.20345,
         "description": "Current Use: The S.D. Ireland Family Center for Global Business and Technology is the newest addition to Champlain's campus. This $10 million building will enhance the College’s ability to put students to work on real business challenges for Vermont companies and non-profits. Students will interact with these clients and Champlain faculty members in new high-tech classrooms and multimedia suites, a market research and strategy room, focus group room, international business resource center and conference rooms.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2037389, lng: 44.4738515 },
+            { lat: -73.2037282, lng: 44.4736457 },
+            { lat: -73.2036799, lng: 44.4736477 },
+            { lat: -73.2036665, lng: 44.4736247 },
+            { lat: -73.203641, lng: 44.4736132 },
+            { lat: -73.2036102, lng: 44.4736151 },
+            { lat: -73.203586, lng: 44.4736285 },
+            { lat: -73.2035753, lng: 44.4736467 },
+            { lat: -73.2035753, lng: 44.4736544 },
+            { lat: -73.203527, lng: 44.4736544 },
+            { lat: -73.2035297, lng: 44.4736955 },
+            { lat: -73.2032548, lng: 44.473707 },
+            { lat: -73.2032548, lng: 44.4737395 },
+            { lat: -73.2032199, lng: 44.4737405 },
+            { lat: -73.2031891, lng: 44.4737491 },
+            { lat: -73.2031623, lng: 44.4737788 },
+            { lat: -73.2031582, lng: 44.4738123 },
+            { lat: -73.2031743, lng: 44.4738429 },
+            { lat: -73.2032011, lng: 44.4738592 },
+            { lat: -73.2032588, lng: 44.4738678 },
+            { lat: -73.203354, lng: 44.4738668 },
+            { lat: -73.2033554, lng: 44.473863 },
+            { lat: -73.2033755, lng: 44.473862 },
+            { lat: -73.2033782, lng: 44.4738678 },
+            { lat: -73.2034734, lng: 44.4738639 },
+            { lat: -73.2034734, lng: 44.4738572 },
+            { lat: -73.2035002, lng: 44.4738563 },
+            { lat: -73.2035002, lng: 44.4738659 },
+            { lat: -73.2036048, lng: 44.4738592 },
+            { lat: -73.2036048, lng: 44.4738716 },
+            { lat: -73.2036786, lng: 44.4738678 },
+            { lat: -73.2036759, lng: 44.4738572 },
+            { lat: -73.2037389, lng: 44.4738515 }
+        ]
     },
 
 
@@ -384,7 +1111,18 @@ var allBuildings = [
         "lat": 44.47779,
         "lng": -73.20483,
         "description": "Sanders Hall features a family atmosphere where students really get to know one another. Sanders Hall features rooms of all shapes and sizes, each with its own personality. Sanders Hall is located in the heart of the Burlington hill section. Sanders Hall is a traditional center hall mansion with a recently renovated foyer and beautiful woodwork. Sanders Hall is ideal for students seeking a close community in a residence hall and convenience to Burlington’s downtown scene. Sanders Hall houses approximately thirty-nine primarily first year students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-sanders-hall.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-sanders-hall.jpg",
+        "poly": [
+            { lat: -73.2049707, lng: 44.4778199 },
+            { lat: -73.2163, lng: 44.4778156 },
+            { lat: -73.2022, lng: 44.4777089 },
+            { lat: -73.2048038, lng: 44.4777204 },
+            { lat: -73.2048158, lng: 44.4778261 },
+            { lat: -73.2048326, lng: 44.4778261 },
+            { lat: -73.204842, lng: 44.4779127 },
+            { lat: -73.2049801, lng: 44.4779046 },
+            { lat: -73.2049707, lng: 44.4778199 }
+        ]
     },
     {
         "name": "Schillhammer Hall",
@@ -430,7 +1168,42 @@ var allBuildings = [
         "lat": 44.47551,
         "lng": -73.20571,
         "description": "Current Use: Robert A. Skiff Hall is currently the home for several offices on Champlain's campus. The office of Residential Life recently came to occupy this building, creating a warm and welcoming atmosphere for those members and the students who use their services. Skiff Hall also holds other services such as the L.E.A.D. Program, the program designed to help teach Champlain students necessary life skill, as well as the Counseling Department and the Graduate Admission office. Location: 163 South Willard Street Year of Construction: approx. 1829 Owner: Joseph Potwin Year Purchased by Champlain College: 1980 History: Skiff Hall is Champlain College's oldest building. Maps drawn in the 1830's to 1860's show it to be one of the few houses that existed in the Hill Section. To the east and south was solid pine woods. It was sold as \"new\" to Don Carlos Baxter, a prominent attorney. It was he who built the little Greek temple on his west lawn to use as a law office. Most estimates are that Baxter built Skiff Hall in several stages with the south addition in 1845, and the cupola and ballroom in 1855. In 1867 the house was sold to Charles Gustavus Austin, who, along with his unmarried daughters, used the house primarily as a summer home until the mid-1920's. Joseph Winterbotham purchased the house in 1927, and when he died in 1956 it was acquired by the Burlington School Department which converted it to offices. Champlain College purchased it in 1980 and moved its administrative offices from Bader Hall to Skiff.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2056621, lng: 44.4754051 },
+            { lat: -73.2056607, lng: 44.47542 },
+            { lat: -73.2056513, lng: 44.4754223 },
+            { lat: -73.2056601, lng: 44.4755271 },
+            { lat: -73.2055829, lng: 44.4755319 },
+            { lat: -73.2055856, lng: 44.4755544 },
+            { lat: -73.2055796, lng: 44.4755539 },
+            { lat: -73.2055803, lng: 44.4755759 },
+            { lat: -73.2055883, lng: 44.4755764 },
+            { lat: -73.205591, lng: 44.4755999 },
+            { lat: -73.2056131, lng: 44.4755989 },
+            { lat: -73.2056185, lng: 44.4756573 },
+            { lat: -73.2056379, lng: 44.4756563 },
+            { lat: -73.2056433, lng: 44.4757281 },
+            { lat: -73.2056285, lng: 44.4757281 },
+            { lat: -73.2056346, lng: 44.4757912 },
+            { lat: -73.2058243, lng: 44.475785 },
+            { lat: -73.205821, lng: 44.4757396 },
+            { lat: -73.2058699, lng: 44.4757372 },
+            { lat: -73.2058699, lng: 44.4757314 },
+            { lat: -73.2058854, lng: 44.4757319 },
+            { lat: -73.2058854, lng: 44.4757243 },
+            { lat: -73.2059135, lng: 44.4757238 },
+            { lat: -73.2059108, lng: 44.4757032 },
+            { lat: -73.2058827, lng: 44.4757051 },
+            { lat: -73.2058753, lng: 44.4756338 },
+            { lat: -73.2058579, lng: 44.4756353 },
+            { lat: -73.2058579, lng: 44.4756295 },
+            { lat: -73.2057828, lng: 44.4756338 },
+            { lat: -73.2057781, lng: 44.4755884 },
+            { lat: -73.2057895, lng: 44.4755874 },
+            { lat: -73.20577, lng: 44.4753989 },
+            { lat: -73.2056621, lng: 44.4754051 }
+        ]
     },
 
     {
@@ -440,7 +1213,26 @@ var allBuildings = [
         "lat": 44.47001,
         "lng": -73.20543,
         "description": "South House is located at the corner of Cliff and South Willard streets in a quieter, more residential part of Burlington’s hill section. Residents enjoy a big back porch and yard during warmer weather and two lounges to engage in hall activities throughout the year. South House marks the southern boundary of our main campus. South House has approximately 50 primarily first year residents. South is one of our larger residence halls, yet residents describe the community as tight-knit and close, while providing ample opportunities for meeting new people and making new friends.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-south-house.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-south-house.jpg",
+        "poly": [
+            { lat: -73.2055816, lng: 44.4701383 },
+            { lat: -73.2055756, lng: 44.4700756 },
+            { lat: -73.2055514, lng: 44.4700747 },
+            { lat: -73.2055487, lng: 44.4700321 },
+            { lat: -73.2055581, lng: 44.4700321 },
+            { lat: -73.2055581, lng: 44.469989 },
+            { lat: -73.2054736, lng: 44.4699895 },
+            { lat: -73.2054649, lng: 44.4698871 },
+            { lat: -73.2053342, lng: 44.469889 },
+            { lat: -73.2053348, lng: 44.4700158 },
+            { lat: -73.2052866, lng: 44.4700168 },
+            { lat: -73.2052846, lng: 44.4709 },
+            { lat: -73.2053402, lng: 44.4709 },
+            { lat: -73.2053436, lng: 44.4701527 },
+            { lat: -73.2055454, lng: 44.4701474 },
+            { lat: -73.2055447, lng: 44.4701402 },
+            { lat: -73.2055816, lng: 44.4701383 }
+        ]
     },
 
     {
@@ -450,7 +1242,24 @@ var allBuildings = [
         "lat": 44.47458,
         "lng": 73.20184,
         "description": "Summit Hall is located in the heart of the Burlington hill section, close to the Miller Information Commons and the main campus. Summit Hall has replaced 215 South Prospect as our traditional building open during break periods, making it ideal for international students. Summit Hall boasts a large lounge which can be used for practicing and playing musical instruments, watching movies, or engaging in one of many frequent social or educational residence hall programs. Summit Hall has a large front lawn, which, during the warmer months, is great for impromptu games of Frisbee and for hall BBQ’s. This stately brick building is appreciated for its many unique rooms. Summit Hall houses approximately forty-nine residents who are a mix of returning and first year students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-summit.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/res-summit.jpg",
+        "poly": [
+            { lat: -73.2018855, lng: 44.474663 },
+            { lat: -73.2018929, lng: 44.4746625 },
+            { lat: -73.2018895, lng: 44.4745769 },
+            { lat: -73.2018708, lng: 44.4745764 },
+            { lat: -73.2018634, lng: 44.4744424 },
+            { lat: -73.2017273, lng: 44.4744463 },
+            { lat: -73.2017333, lng: 44.474564 },
+            { lat: -73.2017226, lng: 44.474573 },
+            { lat: -73.2017253, lng: 44.4746204 },
+            { lat: -73.2017025, lng: 44.4746214 },
+            { lat: -73.2017051, lng: 44.4746903 },
+            { lat: -73.2017983, lng: 44.4746874 },
+            { lat: -73.201801, lng: 44.4747061 },
+            { lat: -73.2018875, lng: 44.4747056 },
+            { lat: -73.2018855, lng: 44.474663 }
+        ]
     },
 
     {
@@ -460,7 +1269,14 @@ var allBuildings = [
         "lat": 44.47595,
         "lng": -73.20626,
         "description": "Current Use: The Gallery is the Campus base for the Radiography program. Most of the radiography classes and meetings that are not held at the hospital are conducted in this building, located just west of Skiff Hall. Location: Main Street (its address is linked with Skiff Hall) Year Constructed: c. 1838 Original Owner: Jonathan Potwin Year Acquired by Champlain College: 1980 History: This small Greek porticoed building was constructed in 1838 by the owners of what is now Skiff Hall. It was used as a law office by Don Carlos Baxter, a prominent Burlington attorney who purchased the house in 1830. It has since been used by various owners as an art studio, tea house, office, and play house. It was included in the sale of the Skiff Hall property to the Burlington School Department in 1957, when it was used as an office. When Champlain College bought the estate in 1980 the Gallery was converted to classroom use.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2063058, lng: 44.476009 },
+            { lat: -73.2062998, lng: 44.4758975 },
+            { lat: -73.2062227, lng: 44.4759003 },
+            { lat: -73.206232, lng: 44.4760118 },
+            { lat: -73.2063058, lng: 44.476009 }
+        ]
     },
 
     {
@@ -470,7 +1286,14 @@ var allBuildings = [
         "lat": 44.474197,
         "lng": -73.206321,
         "description": "",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2065546, lng: 44.474251 },
+            { lat: -73.2065412, lng: 44.4742 },
+            { lat: -73.2061154, lng: 44.474084 },
+            { lat: -73.2061288, lng: 44.4742673 },
+            { lat: -73.2065546, lng: 44.474251 }
+        ]
     },
 
     {
@@ -480,7 +1303,24 @@ var allBuildings = [
         "lat": 44.47346,
         "lng": -73.20626,
         "description": "Current Use: Offices Location: 317 Maple Street Year of Construction: 1884 Original Owner: Elias Lyman Year Purchased by Champlain College: 1998 History: West house was built, originally, as a garage and residence for the chauffeur of the Lyman family [link to Lyman Hall], probably in the early 1900's. In the 1920's it was converted to a duplex; in the 1970's it was sold to Lubavitch of Vermont. It was purchased by Champlain College in 1998.",
-        "image": ""
+        "image": "",
+        "poly": [
+            { lat: -73.2063635, lng: 44.4734094 },
+            { lat: -73.2063179, lng: 44.4734122 },
+            { lat: -73.2063165, lng: 44.4734055 },
+            { lat: -73.2062106, lng: 44.4734122 },
+            { lat: -73.2062119, lng: 44.4734218 },
+            { lat: -73.2061677, lng: 44.4734237 },
+            { lat: -73.2061757, lng: 44.4734974 },
+            { lat: -73.2062227, lng: 44.4734955 },
+            { lat: -73.2062294, lng: 44.4735213 },
+            { lat: -73.2063098, lng: 44.4735166 },
+            { lat: -73.2063085, lng: 44.4734955 },
+            { lat: -73.2063273, lng: 44.4734936 },
+            { lat: -73.2063246, lng: 44.4734859 },
+            { lat: -73.2063729, lng: 44.4734831 },
+            { lat: -73.2063635, lng: 44.4734094 }
+        ]
     },
 
     {
@@ -490,7 +1330,38 @@ var allBuildings = [
         "lat": 44.47457,
         "lng": -73.2058,
         "description": "Whiting Hall is located in the heart of the residential campus on the corner of South Willard Street and Maple Street. Whiting is a Victorian-era mansion with beautiful original woodwork and three floors of student rooms. Whiting shares lawn space with McDonald Hall, and has a large front porch. On warm days, you will find residents studying under trees or playing Frisbee with their McDonald Hall neighbors! Whiting is home to approximately 40 primarily first year students.",
-        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/reshall-whiting.jpg"
+        "image": "http://www.champlain.edu/Images/Admin/Gallery/Campus/reshall-whiting.jpg",
+        "poly": [
+            { lat: -73.2058525, lng: 44.4746415 },
+            { lat: -73.2059933, lng: 44.4746338 },
+            { lat: -73.2059866, lng: 44.4745391 },
+            { lat: -73.205876, lng: 44.4745424 },
+            { lat: -73.2058686, lng: 44.4745348 },
+            { lat: -73.2058465, lng: 44.4745333 },
+            { lat: -73.2058384, lng: 44.4745434 },
+            { lat: -73.2057995, lng: 44.4745458 },
+            { lat: -73.2057975, lng: 44.4745348 },
+            { lat: -73.205772, lng: 44.4745338 },
+            { lat: -73.2057606, lng: 44.4745223 },
+            { lat: -73.2057459, lng: 44.4745228 },
+            { lat: -73.2057459, lng: 44.4745089 },
+            { lat: -73.2056165, lng: 44.4745128 },
+            { lat: -73.2056145, lng: 44.474563 },
+            { lat: -73.2056312, lng: 44.474562 },
+            { lat: -73.2056332, lng: 44.4746152 },
+            { lat: -73.2056131, lng: 44.4746166 },
+            { lat: -73.2056151, lng: 44.4746434 },
+            { lat: -73.2056366, lng: 44.474642 },
+            { lat: -73.2056359, lng: 44.4746491 },
+            { lat: -73.2057499, lng: 44.4746458 },
+            { lat: -73.2057566, lng: 44.4746539 },
+            { lat: -73.2057787, lng: 44.474653 },
+            { lat: -73.2057808, lng: 44.4746458 },
+            { lat: -73.2058223, lng: 44.4746434 },
+            { lat: -73.2058284, lng: 44.4746486 },
+            { lat: -73.2058478, lng: 44.4746486 },
+            { lat: -73.2058525, lng: 44.4746415 }
+        ]
     },
 
     {
@@ -500,6 +1371,17 @@ var allBuildings = [
         "lat": 44.473397,
         "lng": -73.203603,
         "description": "Current Use: Wick contains three classrooms on the first floor, and faculty offices on the second. Location: Behind Aiken Hall Year of Construction: 1885 Original Owner: Frederick Kennedy Year Purchased by Champlain College: 1981 History: This building served as the stable and carriage house behind the main house of the Kennedy estate on Summit Street. It was designed by A. B. Fisher in the same Queen Anne style as the house. By the 1920's cars had replaced the horses, and Wick was converted to a garage, with servants' quarters upstairs. When Champlain College purchased the Westervelt estate in 1981, this building was remodeled into classrooms and faculty offices.",
-        "image": ""
-    },
+        "image": "",
+        "poly": [
+            { lat: -73.2036685, lng: 44.4734955 },
+            { lat: -73.2036564, lng: 44.4733376 },
+            { lat: -73.2036296, lng: 44.4733386 },
+            { lat: -73.2036283, lng: 44.4732744 },
+            { lat: -73.2034834, lng: 44.4732773 },
+            { lat: -73.2034861, lng: 44.4733759 },
+            { lat: -73.2035411, lng: 44.473374 },
+            { lat: -73.2035451, lng: 44.4734984 },
+            { lat: -73.2036685, lng: 44.4734955 }
+        ]
+    }
 ];
