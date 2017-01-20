@@ -38,8 +38,10 @@ a.buildingLabel {
 
 
 .legend {
+    padding-left: 20px;
+    padding-top: 150px;
+    z-index: 3;
     width: 200px;
-    margin: 150px 20px 0 20px;
     float: left;
     background-color: #ffffff;
 }
